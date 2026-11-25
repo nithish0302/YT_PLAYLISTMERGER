@@ -1,15 +1,7 @@
 import React from 'react';
-import { ViewSection } from '../../types';
 import { CheckCircle2, AlertCircle } from 'lucide-react';
 
-interface HeaderProps {
-  currentSection: ViewSection;
-  selectedCount: number;
-  totalTracks: number;
-  accountCount: number;
-}
-
-const sectionTitles: Record<ViewSection, { title: string; subtitle: string }> = {
+const sectionTitles = {
   accounts: {
     title: 'Google Accounts',
     subtitle: 'Connect multiple YouTube Music or Google accounts without passwords.',
@@ -36,13 +28,13 @@ const sectionTitles: Record<ViewSection, { title: string; subtitle: string }> = 
   },
 };
 
-export const Header: React.FC<HeaderProps> = ({
+export const Header = ({
   currentSection,
   selectedCount,
   totalTracks,
   accountCount,
 }) => {
-  const current = sectionTitles[currentSection];
+  const current = sectionTitles[currentSection] || sectionTitles.accounts;
 
   return (
     <header className="h-20 bg-slate-900/60 backdrop-blur border-b border-slate-800 px-8 flex items-center justify-between shrink-0">
@@ -86,4 +78,5 @@ export const Header: React.FC<HeaderProps> = ({
     </header>
   );
 };
+
 export default Header;

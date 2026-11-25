@@ -9,7 +9,6 @@ import DuplicatesSection from './components/Duplicates/DuplicatesSection';
 import EditorSection from './components/Editor/EditorSection';
 import ExportSection from './components/Export/ExportSection';
 
-import type { Account, Playlist, Track, DuplicateGroup, DuplicateStats, ViewSection } from './types';
 import { getAccounts, getPlaylistTracks } from './api';
 import {
   findExactDuplicates,
@@ -20,24 +19,24 @@ import {
   restoreAllTracks,
 } from './utils/duplicateDetection';
 
-export const App: React.FC = () => {
+export const App = () => {
   // Navigation
-  const [currentSection, setCurrentSection] = useState<ViewSection>('accounts');
+  const [currentSection, setCurrentSection] = useState('accounts');
 
   // Accounts
-  const [accounts, setAccounts] = useState<Account[]>([]);
+  const [accounts, setAccounts] = useState([]);
 
   // Playlists (up to 7)
-  const [selectedPlaylists, setSelectedPlaylists] = useState<Playlist[]>([]);
+  const [selectedPlaylists, setSelectedPlaylists] = useState([]);
 
   // Tracks (Combined dataset)
-  const [allTracks, setAllTracks] = useState<Track[]>([]);
+  const [allTracks, setAllTracks] = useState([]);
   const [combining, setCombining] = useState(false);
   const [combineProgress, setCombineProgress] = useState('');
 
   // Duplicates state
-  const [exactGroups, setExactGroups] = useState<DuplicateGroup[]>([]);
-  const [possibleGroups, setPossibleGroups] = useState<DuplicateGroup[]>([]);
+  const [exactGroups, setExactGroups] = useState([]);
+  const [possibleGroups, setPossibleGroups] = useState([]);
 
   // Final Playlist Metadata
   const [playlistName, setPlaylistName] = useState('My Combined Playlist');
@@ -48,7 +47,7 @@ export const App: React.FC = () => {
     try {
       const accs = await getAccounts();
       setAccounts(accs);
-    } catch (err: any) {
+    } catch (err) {
       console.warn('Could not fetch accounts:', err);
     }
   }, []);
@@ -73,9 +72,9 @@ export const App: React.FC = () => {
   }, [refreshAccounts]);
 
   // ── Duplicate Detection Recalculation ──
-  const runDuplicateDetection = useCallback((tracks: Track[]) => {
+  const runDuplicateDetection = useCallback((tracks) => {
     const exact = findExactDuplicates(tracks);
-    const exactIds = new Set<string>();
+    const exactIds = new Set();
     exact.forEach((g) => g.tracks.forEach((t) => exactIds.add(t.videoId)));
     const possible = findPossibleDuplicates(tracks, exactIds);
 
@@ -84,12 +83,12 @@ export const App: React.FC = () => {
   }, []);
 
   // Duplicate Stats Memo
-  const duplicateStats: DuplicateStats = useMemo(() => {
+  const duplicateStats = useMemo(() => {
     return calculateDuplicateStats(allTracks, exactGroups, possibleGroups);
   }, [allTracks, exactGroups, possibleGroups]);
 
   // ── Playlist Selection Handlers ──
-  const handleAddPlaylist = (playlist: Playlist) => {
+  const handleAddPlaylist = (playlist) => {
     if (selectedPlaylists.length >= 7) {
       toast.error('Limit reached: You can stage up to 7 playlists in one merge operation.', {
         icon: '⚠️',
@@ -104,7 +103,7 @@ export const App: React.FC = () => {
     toast.success(`Added "${playlist.title}" to collection (${selectedPlaylists.length + 1}/7)`);
   };
 
-  const handleRemovePlaylist = (playlistId: string) => {
+  const handleRemovePlaylist = (playlistId) => {
     setSelectedPlaylists((prev) => prev.filter((p) => p.id !== playlistId));
     toast('Playlist removed from staged collection.');
   };
@@ -119,7 +118,7 @@ export const App: React.FC = () => {
     setCombining(true);
     setCombineProgress('Preparing track fetch...');
 
-    const combined: Track[] = [];
+    const combined = [];
 
     try {
       for (let i = 0; i < selectedPlaylists.length; i++) {
@@ -140,7 +139,7 @@ export const App: React.FC = () => {
       runDuplicateDetection(combined);
       toast.success(`Successfully combined ${combined.length} songs from ${selectedPlaylists.length} playlists!`);
       setCurrentSection('duplicates');
-    } catch (err: any) {
+    } catch (err) {
       console.error('Failed to combine playlist tracks:', err);
       toast.error(`Error loading tracks: ${err.message || 'Unknown error'}`);
     } finally {
@@ -162,7 +161,7 @@ export const App: React.FC = () => {
     toast.success(`Removed ${duplicateStats.exactDuplicates} exact duplicate songs.`);
   };
 
-  const handleRemoveSelectedDuplicates = (resolvedGroups: DuplicateGroup[]) => {
+  const handleRemoveSelectedDuplicates = (resolvedGroups) => {
     const updated = removeSelectedPossibleDuplicates(allTracks, resolvedGroups);
     setAllTracks(updated);
     runDuplicateDetection(updated);
@@ -177,9 +176,9 @@ export const App: React.FC = () => {
   };
 
   const handleUpdateGroupKeepIndex = (
-    type: 'exact' | 'possible',
-    groupKey: string,
-    keepIndex: number
+    type,
+    groupKey,
+    keepIndex
   ) => {
     if (type === 'exact') {
       setExactGroups((prev) =>
@@ -193,11 +192,11 @@ export const App: React.FC = () => {
   };
 
   // ── Editor Actions ──
-  const handleReorderTracks = (reordered: Track[]) => {
+  const handleReorderTracks = (reordered) => {
     setAllTracks(reordered);
   };
 
-  const handleRemoveTrack = (index: number) => {
+  const handleRemoveTrack = (index) => {
     setAllTracks((prev) => {
       const next = [...prev];
       next[index] = { ...next[index], isRemoved: true };
@@ -206,7 +205,7 @@ export const App: React.FC = () => {
     toast('Song marked as removed.');
   };
 
-  const handleRestoreTrack = (index: number) => {
+  const handleRestoreTrack = (index) => {
     setAllTracks((prev) => {
       const next = [...prev];
       next[index] = { ...next[index], isRemoved: false };

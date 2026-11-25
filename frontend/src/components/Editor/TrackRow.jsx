@@ -1,20 +1,7 @@
 import React from 'react';
 import { GripVertical, Trash2, RotateCcw, Music, ExternalLink } from 'lucide-react';
-import type { Track } from '../../types';
 
-interface TrackRowProps {
-  track: Track;
-  index: number;
-  onRemove: (index: number) => void;
-  onRestore: (index: number) => void;
-  onMoveUp?: (index: number) => void;
-  onMoveDown?: (index: number) => void;
-  isFirst?: boolean;
-  isLast?: boolean;
-  dragHandleProps?: any;
-}
-
-export const TrackRow: React.FC<TrackRowProps> = ({
+export const TrackRow = ({
   track,
   index,
   onRemove,
@@ -142,4 +129,5 @@ export const TrackRow: React.FC<TrackRowProps> = ({
     </div>
   );
 };
+
 export default TrackRow;

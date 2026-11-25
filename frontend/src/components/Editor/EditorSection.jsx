@@ -10,24 +10,10 @@ import {
   Filter,
   Trash2,
 } from 'lucide-react';
-import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import TrackRow from './TrackRow';
-import type { Track } from '../../types';
 
-interface EditorSectionProps {
-  tracks: Track[];
-  playlistName: string;
-  playlistDescription: string;
-  onUpdatePlaylistName: (name: string) => void;
-  onUpdatePlaylistDescription: (desc: string) => void;
-  onReorderTracks: (newTracks: Track[]) => void;
-  onRemoveTrack: (index: number) => void;
-  onRestoreTrack: (index: number) => void;
-  onRestoreAllTracks: () => void;
-  onProceedToExport: () => void;
-}
-
-export const EditorSection: React.FC<EditorSectionProps> = ({
+export const EditorSection = ({
   tracks,
   playlistName,
   playlistDescription,
@@ -41,8 +27,8 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showPreviewModal, setShowPreviewModal] = useState(false);
-  const [sortAsc, setSortAsc] = useState<boolean | null>(null);
-  const [selectedPlaylistFilter, setSelectedPlaylistFilter] = useState<string>('all');
+  const [sortAsc, setSortAsc] = useState(null);
+  const [selectedPlaylistFilter, setSelectedPlaylistFilter] = useState('all');
 
   const activeTracksCount = useMemo(
     () => tracks.filter((t) => !t.isRemoved).length,
@@ -52,7 +38,7 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
 
   // Distinct source playlists in the combined dataset
   const uniqueSourcePlaylists = useMemo(() => {
-    const set = new Set<string>();
+    const set = new Set();
     tracks.forEach((t) => {
       if (t.playlistTitle) set.add(t.playlistTitle);
     });
@@ -95,7 +81,7 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
   };
 
   // Drag and drop reordering
-  const handleDragEnd = (result: DropResult) => {
+  const handleDragEnd = (result) => {
     if (!result.destination) return;
     if (result.destination.index === result.source.index) return;
 
@@ -109,7 +95,7 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
     onReorderTracks(reordered);
   };
 
-  const handleMoveUp = (index: number) => {
+  const handleMoveUp = (index) => {
     if (index <= 0) return;
     const reordered = Array.from(tracks);
     const temp = reordered[index - 1];
@@ -118,7 +104,7 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
     onReorderTracks(reordered);
   };
 
-  const handleMoveDown = (index: number) => {
+  const handleMoveDown = (index) => {
     if (index >= tracks.length - 1) return;
     const reordered = Array.from(tracks);
     const temp = reordered[index + 1];
@@ -348,7 +334,7 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
                 </p>
               </div>
               <button
-                onClick={() => setShowPreviewModal(null as any)}
+                onClick={() => setShowPreviewModal(false)}
                 className="text-slate-400 hover:text-white p-2 rounded-xl bg-slate-800 hover:bg-slate-700"
               >
                 <X className="w-4 h-4" />
@@ -399,4 +385,5 @@ export const EditorSection: React.FC<EditorSectionProps> = ({
     </div>
   );
 };
+
 export default EditorSection;

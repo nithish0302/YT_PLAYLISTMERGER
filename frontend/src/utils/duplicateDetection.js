@@ -1,10 +1,8 @@
-import type { Track, DuplicateGroup, DuplicateStats } from '../types';
-
 /**
  * Clean and normalize a song title by removing common YouTube music tags,
  * video quality tags, and feature tags.
  */
-export function normalizeTitle(title: string): string {
+export function normalizeTitle(title) {
   if (!title) return '';
   let cleaned = title.toLowerCase();
 
@@ -25,7 +23,7 @@ export function normalizeTitle(title: string): string {
 /**
  * Clean and normalize an artist name by removing channel tags like "- Topic", "VEVO", etc.
  */
-export function normalizeArtist(artist: string): string {
+export function normalizeArtist(artist) {
   if (!artist) return '';
   let cleaned = artist.toLowerCase();
 
@@ -42,8 +40,8 @@ export function normalizeArtist(artist: string): string {
  * Mode 1: Exact Duplicates (by YouTube video ID).
  * If the exact same video appears multiple times across or within playlists.
  */
-export function findExactDuplicates(tracks: Track[]): DuplicateGroup[] {
-  const videoMap = new Map<string, Track[]>();
+export function findExactDuplicates(tracks) {
+  const videoMap = new Map();
 
   for (const track of tracks) {
     if (track.isRemoved) continue;
@@ -52,7 +50,7 @@ export function findExactDuplicates(tracks: Track[]): DuplicateGroup[] {
     videoMap.set(track.videoId, existing);
   }
 
-  const groups: DuplicateGroup[] = [];
+  const groups = [];
 
   videoMap.forEach((groupTracks, videoId) => {
     if (groupTracks.length > 1) {
@@ -74,8 +72,8 @@ export function findExactDuplicates(tracks: Track[]): DuplicateGroup[] {
  * Mode 2: Possible Duplicates (by Normalized Title and Artist).
  * Detects songs that have DIFFERENT video IDs but identical/near-identical song name and artist.
  */
-export function findPossibleDuplicates(tracks: Track[], excludeExactGroupVideoIds: Set<string> = new Set()): DuplicateGroup[] {
-  const normMap = new Map<string, Track[]>();
+export function findPossibleDuplicates(tracks, excludeExactGroupVideoIds = new Set()) {
+  const normMap = new Map();
 
   for (const track of tracks) {
     if (track.isRemoved) continue;
@@ -91,7 +89,7 @@ export function findPossibleDuplicates(tracks: Track[], excludeExactGroupVideoId
     normMap.set(key, list);
   }
 
-  const groups: DuplicateGroup[] = [];
+  const groups = [];
 
   normMap.forEach((groupTracks, key) => {
     // Only consider it a duplicate group if there are multiple DIFFERENT videoIds
@@ -121,11 +119,7 @@ export function findPossibleDuplicates(tracks: Track[], excludeExactGroupVideoId
 /**
  * Compute real-time statistics for the duplicate manager.
  */
-export function calculateDuplicateStats(
-  allTracks: Track[],
-  exactGroups: DuplicateGroup[],
-  possibleGroups: DuplicateGroup[]
-): DuplicateStats {
+export function calculateDuplicateStats(allTracks, exactGroups, possibleGroups) {
   const activeTracks = allTracks.filter((t) => !t.isRemoved);
   const totalImported = allTracks.length;
 
@@ -153,14 +147,13 @@ export function calculateDuplicateStats(
 /**
  * Automatically mark all exact duplicate copies as removed except the chosen keepIndex.
  */
-export function removeExactDuplicates(tracks: Track[], exactGroups: DuplicateGroup[]): Track[] {
-  const idsToRemove = new Set<string>();
+export function removeExactDuplicates(tracks, exactGroups) {
+  const idsToRemove = new Set();
 
   for (const group of exactGroups) {
     group.tracks.forEach((track, idx) => {
       if (idx !== group.keepIndex) {
         // Mark this track instance as removed
-        // We identify the instance by videoId and playlistId/position
         idsToRemove.add(`${track.videoId}_${track.playlistId}_${track.position}`);
       }
     });
@@ -178,8 +171,8 @@ export function removeExactDuplicates(tracks: Track[], exactGroups: DuplicateGro
 /**
  * Apply user selections for possible duplicate groups.
  */
-export function removeSelectedPossibleDuplicates(tracks: Track[], groups: DuplicateGroup[]): Track[] {
-  const idsToRemove = new Set<string>();
+export function removeSelectedPossibleDuplicates(tracks, groups) {
+  const idsToRemove = new Set();
 
   for (const group of groups) {
     group.tracks.forEach((track, idx) => {
@@ -201,6 +194,6 @@ export function removeSelectedPossibleDuplicates(tracks: Track[], groups: Duplic
 /**
  * Restore all removed tracks.
  */
-export function restoreAllTracks(tracks: Track[]): Track[] {
+export function restoreAllTracks(tracks) {
   return tracks.map((t) => ({ ...t, isRemoved: false }));
 }

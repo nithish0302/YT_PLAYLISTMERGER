@@ -9,18 +9,8 @@ import {
   Music2,
   Sparkles,
 } from 'lucide-react';
-import type { ViewSection } from '../../types';
 
-interface SidebarProps {
-  currentSection: ViewSection;
-  onSelectSection: (section: ViewSection) => void;
-  selectedCount: number;
-  duplicateCount: number;
-  trackCount: number;
-  accountCount: number;
-}
-
-export const Sidebar: React.FC<SidebarProps> = ({
+export const Sidebar = ({
   currentSection,
   onSelectSection,
   selectedCount,
@@ -30,40 +20,40 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const navItems = [
     {
-      id: 'accounts' as ViewSection,
+      id: 'accounts',
       label: 'Connect Accounts',
       icon: Users,
       badge: accountCount > 0 ? `${accountCount}` : undefined,
       badgeColor: 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30',
     },
     {
-      id: 'import' as ViewSection,
+      id: 'import',
       label: 'Import Playlists',
       icon: Download,
     },
     {
-      id: 'selected' as ViewSection,
+      id: 'selected',
       label: 'Selected Playlists',
       icon: ListMusic,
       badge: `${selectedCount}/7`,
       badgeColor: selectedCount > 0 ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' : 'bg-slate-800 text-slate-400',
     },
     {
-      id: 'duplicates' as ViewSection,
+      id: 'duplicates',
       label: 'Duplicate Manager',
       icon: Copy,
       badge: duplicateCount > 0 ? `${duplicateCount} dupes` : undefined,
       badgeColor: 'bg-amber-500/20 text-amber-300 border border-amber-500/30',
     },
     {
-      id: 'editor' as ViewSection,
+      id: 'editor',
       label: 'Combined Playlist',
       icon: SlidersHorizontal,
       badge: trackCount > 0 ? `${trackCount} songs` : undefined,
       badgeColor: 'bg-blue-500/20 text-blue-300 border border-blue-500/30',
     },
     {
-      id: 'export' as ViewSection,
+      id: 'export',
       label: 'Export to YouTube',
       icon: UploadCloud,
     },
@@ -145,4 +135,5 @@ export const Sidebar: React.FC<SidebarProps> = ({
     </aside>
   );
 };
+
 export default Sidebar;

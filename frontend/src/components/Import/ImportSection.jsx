@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Download,
   Link2,
@@ -10,19 +10,10 @@ import {
   ListMusic,
   CheckCircle,
 } from 'lucide-react';
-import PlaylistCard from './PlaylistCard';
-import type { Account, Playlist } from '../../types';
+import PlaylistCard from './PlaylistCard.jsx';
 import { getAccountPlaylists, getPlaylistByUrl } from '../../api';
 
-interface ImportSectionProps {
-  accounts: Account[];
-  selectedPlaylists: Playlist[];
-  onAddPlaylist: (playlist: Playlist) => void;
-  onRemovePlaylist: (playlistId: string) => void;
-  onProceedToSelected: () => void;
-}
-
-export const ImportSection: React.FC<ImportSectionProps> = ({
+export const ImportSection = ({
   accounts,
   selectedPlaylists,
   onAddPlaylist,
@@ -30,24 +21,24 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
   onProceedToSelected,
 }) => {
   // Method A State
-  const [selectedAccountId, setSelectedAccountId] = useState<string>(
+  const [selectedAccountId, setSelectedAccountId] = useState(
     accounts[0]?.id || ''
   );
-  const [accountPlaylists, setAccountPlaylists] = useState<Playlist[]>([]);
+  const [accountPlaylists, setAccountPlaylists] = useState([]);
   const [fetchingAccount, setFetchingAccount] = useState(false);
-  const [accountFetchError, setAccountFetchError] = useState<string | null>(null);
+  const [accountFetchError, setAccountFetchError] = useState(null);
 
   // Method B State
   const [playlistUrlInput, setPlaylistUrlInput] = useState('');
   const [fetchingUrl, setFetchingUrl] = useState(false);
-  const [urlFetchError, setUrlFetchError] = useState<string | null>(null);
-  const [urlImportedPlaylist, setUrlImportedPlaylist] = useState<Playlist | null>(null);
+  const [urlFetchError, setUrlFetchError] = useState(null);
+  const [urlImportedPlaylist, setUrlImportedPlaylist] = useState(null);
 
   // Active Tab
-  const [activeTab, setActiveTab] = useState<'account' | 'url'>('account');
+  const [activeTab, setActiveTab] = useState('account');
 
   // Keep selectedAccountId synced with available accounts
-  React.useEffect(() => {
+  useEffect(() => {
     if ((!selectedAccountId || !accounts.some((a) => a.id === selectedAccountId)) && accounts.length > 0) {
       setSelectedAccountId(accounts[0].id);
     }
@@ -67,13 +58,13 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
         ...p,
         sourceAccountId: selectedAccountId,
         sourceAccountEmail: acc?.email || '',
-        sourceType: 'account' as const,
+        sourceType: 'account',
       }));
       setAccountPlaylists(enriched);
       if (enriched.length === 0) {
         setAccountFetchError('No playlists found on this YouTube account.');
       }
-    } catch (err: any) {
+    } catch (err) {
       console.error('Fetch account playlists error:', err);
       const msg = err.response?.data?.error || err.message || 'Failed to fetch playlists.';
       setAccountFetchError(msg);
@@ -83,7 +74,7 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
   };
 
   // ── Handle URL Import Fetch ──
-  const handleFetchByUrl = async (e?: React.FormEvent) => {
+  const handleFetchByUrl = async (e) => {
     if (e) e.preventDefault();
     if (!playlistUrlInput.trim()) return;
 
@@ -96,7 +87,7 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
       const fallbackAccount = accounts[0]?.id;
       const playlist = await getPlaylistByUrl(playlistUrlInput.trim(), fallbackAccount);
       setUrlImportedPlaylist(playlist);
-    } catch (err: any) {
+    } catch (err) {
       console.error('Fetch playlist by URL error:', err);
       const msg =
         err.response?.data?.error ||
@@ -115,7 +106,7 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
     setUrlImportedPlaylist(null);
   };
 
-  const isSelected = (id: string) => selectedPlaylists.some((p) => p.id === id);
+  const isSelected = (id) => selectedPlaylists.some((p) => p.id === id);
 
   return (
     <div className="p-8 max-w-6xl mx-auto space-y-8 animate-fadeIn">
@@ -374,4 +365,5 @@ export const ImportSection: React.FC<ImportSectionProps> = ({
     </div>
   );
 };
+
 export default ImportSection;

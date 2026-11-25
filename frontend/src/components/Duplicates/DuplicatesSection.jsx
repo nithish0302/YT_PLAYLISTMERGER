@@ -8,22 +8,8 @@ import {
   ArrowRight,
   Info,
 } from 'lucide-react';
-import type { Track, DuplicateGroup, DuplicateStats } from '../../types';
 
-interface DuplicatesSectionProps {
-  tracks: Track[];
-  exactGroups: DuplicateGroup[];
-  possibleGroups: DuplicateGroup[];
-  stats: DuplicateStats;
-  onFindDuplicates: () => void;
-  onRemoveExactDuplicates: () => void;
-  onRemoveSelectedDuplicates: (resolvedGroups: DuplicateGroup[]) => void;
-  onRestoreAll: () => void;
-  onUpdateGroupKeepIndex: (type: 'exact' | 'possible', groupKey: string, keepIndex: number) => void;
-  onProceedToEditor: () => void;
-}
-
-export const DuplicatesSection: React.FC<DuplicatesSectionProps> = ({
+export const DuplicatesSection = ({
   tracks,
   exactGroups,
   possibleGroups,
@@ -35,11 +21,11 @@ export const DuplicatesSection: React.FC<DuplicatesSectionProps> = ({
   onUpdateGroupKeepIndex,
   onProceedToEditor,
 }) => {
-  const [activeTab, setActiveTab] = useState<'exact' | 'possible'>('exact');
-  const [selectedPossibleGroupKeys, setSelectedPossibleGroupKeys] = useState<Set<string>>(new Set());
+  const [activeTab, setActiveTab] = useState('exact');
+  const [selectedPossibleGroupKeys, setSelectedPossibleGroupKeys] = useState(new Set());
 
   // Toggle selection for possible duplicate groups
-  const toggleSelectPossibleGroup = (key: string) => {
+  const toggleSelectPossibleGroup = (key) => {
     setSelectedPossibleGroupKeys((prev) => {
       const next = new Set(prev);
       if (next.has(key)) {
@@ -428,4 +414,5 @@ export const DuplicatesSection: React.FC<DuplicatesSectionProps> = ({
     </div>
   );
 };
+
 export default DuplicatesSection;

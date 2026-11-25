@@ -10,7 +10,7 @@ start "Playlist Centralizer Server" cmd /k "cd /d d:\YT PLAYLIST\server && npm s
 timeout /t 3 /nobreak > nul
 
 echo Starting Frontend React App on http://localhost:3000 ...
-start "Playlist Centralizer Client" cmd /k "cd /d d:\YT PLAYLIST\client && npm start"
+start "Playlist Centralizer Client" cmd /k "cd /d d:\YT PLAYLIST\frontend && npm run dev"
 
 echo.
 echo ========================================================

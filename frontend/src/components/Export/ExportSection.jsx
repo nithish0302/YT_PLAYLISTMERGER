@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   UploadCloud,
   CheckCircle2,
@@ -10,19 +10,9 @@ import {
   RotateCcw,
   User,
 } from 'lucide-react';
-import type { Account, Track, CreatePlaylistResult } from '../../types';
 import { createPlaylist, getAuthUrl, connectAccount } from '../../api';
 
-interface ExportSectionProps {
-  accounts: Account[];
-  tracks: Track[];
-  playlistName: string;
-  playlistDescription: string;
-  onAccountsUpdated: () => Promise<void>;
-  onStartOver: () => void;
-}
-
-export const ExportSection: React.FC<ExportSectionProps> = ({
+export const ExportSection = ({
   accounts,
   tracks,
   playlistName,
@@ -30,12 +20,12 @@ export const ExportSection: React.FC<ExportSectionProps> = ({
   onAccountsUpdated,
   onStartOver,
 }) => {
-  const [selectedDestinationAccountId, setSelectedDestinationAccountId] = useState<string>(
+  const [selectedDestinationAccountId, setSelectedDestinationAccountId] = useState(
     accounts[0]?.id || ''
   );
 
   // Keep selectedDestinationAccountId synced with available accounts
-  React.useEffect(() => {
+  useEffect(() => {
     if ((!selectedDestinationAccountId || !accounts.some((a) => a.id === selectedDestinationAccountId)) && accounts.length > 0) {
       setSelectedDestinationAccountId(accounts[0].id);
     }
@@ -44,8 +34,8 @@ export const ExportSection: React.FC<ExportSectionProps> = ({
   const [isExporting, setIsExporting] = useState(false);
   const [exportProgress, setExportProgress] = useState(0);
   const [exportMessage, setExportMessage] = useState('');
-  const [exportResult, setExportResult] = useState<CreatePlaylistResult | null>(null);
-  const [exportError, setExportError] = useState<string | null>(null);
+  const [exportResult, setExportResult] = useState(null);
+  const [exportError, setExportError] = useState(null);
   const [connectingNewAccount, setConnectingNewAccount] = useState(false);
 
   const activeTracks = tracks.filter((t) => !t.isRemoved);
@@ -57,7 +47,7 @@ export const ExportSection: React.FC<ExportSectionProps> = ({
     try {
       const url = await getAuthUrl();
       const popup = window.open(url, 'Connect Google Account', 'width=500,height=650');
-      const messageListener = async (event: MessageEvent) => {
+      const messageListener = async (event) => {
         if (event.data?.type === 'OAUTH_SUCCESS') {
           window.removeEventListener('message', messageListener);
           await onAccountsUpdated();
@@ -108,7 +98,7 @@ export const ExportSection: React.FC<ExportSectionProps> = ({
 
       setExportProgress(100);
       setExportResult(result);
-    } catch (err: any) {
+    } catch (err) {
       console.error('Playlist creation failed:', err);
       const msg =
         err.response?.data?.error ||
@@ -389,4 +379,5 @@ export const ExportSection: React.FC<ExportSectionProps> = ({
     </div>
   );
 };
+
 export default ExportSection;

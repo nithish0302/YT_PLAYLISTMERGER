@@ -1,22 +1,15 @@
 import React, { useState } from 'react';
 import { Plus, Users, ShieldAlert, KeyRound, Sparkles, AlertCircle } from 'lucide-react';
-import AccountCard from './AccountCard';
-import type { Account } from '../../types';
+import AccountCard from './AccountCard.jsx';
 import { getAuthUrl, connectAccount, disconnectAccount, reconnectAccount } from '../../api';
 
-interface AccountsSectionProps {
-  accounts: Account[];
-  onAccountsUpdated: () => Promise<void>;
-  onProceedToImport: () => void;
-}
-
-export const AccountsSection: React.FC<AccountsSectionProps> = ({
+export const AccountsSection = ({
   accounts,
   onAccountsUpdated,
   onProceedToImport,
 }) => {
   const [connecting, setConnecting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState(null);
 
   const handleAddAccount = async () => {
     setConnecting(true);
@@ -41,7 +34,7 @@ export const AccountsSection: React.FC<AccountsSectionProps> = ({
       }
 
       // Listen for message from popup
-      const messageListener = async (event: MessageEvent) => {
+      const messageListener = async (event) => {
         if (event.data?.type === 'OAUTH_SUCCESS') {
           window.removeEventListener('message', messageListener);
           await onAccountsUpdated();
@@ -63,14 +56,14 @@ export const AccountsSection: React.FC<AccountsSectionProps> = ({
           onAccountsUpdated();
         }
       }, 1000);
-    } catch (err: any) {
+    } catch (err) {
       console.warn('OAuth URL fetch failed, falling back to direct redirect:', err);
       // Fallback
       connectAccount();
     }
   };
 
-  const handleReconnect = async (id: string) => {
+  const handleReconnect = async (id) => {
     const result = await reconnectAccount(id);
     if (!result.valid) {
       // Re-trigger OAuth flow
@@ -80,11 +73,11 @@ export const AccountsSection: React.FC<AccountsSectionProps> = ({
     }
   };
 
-  const handleRemove = async (id: string) => {
+  const handleRemove = async (id) => {
     try {
       await disconnectAccount(id);
       await onAccountsUpdated();
-    } catch (err: any) {
+    } catch (err) {
       setError(err.message || 'Failed to disconnect account');
     }
   };
@@ -205,4 +198,5 @@ export const AccountsSection: React.FC<AccountsSectionProps> = ({
     </div>
   );
 };
+
 export default AccountsSection;

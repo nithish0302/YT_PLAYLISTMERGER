@@ -1,23 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Plus, Check, Music2, ExternalLink, User } from 'lucide-react';
-import type { Playlist } from '../../types';
 
-interface PlaylistCardProps {
-  playlist: Playlist;
-  isSelected: boolean;
-  onSelect: (playlist: Playlist) => void;
-  onDeselect: (playlistId: string) => void;
-  disabled?: boolean;
-}
-
-export const PlaylistCard: React.FC<PlaylistCardProps> = ({
+export const PlaylistCard = ({
   playlist,
   isSelected,
   onSelect,
   onDeselect,
   disabled,
 }) => {
-  const [imgError, setImgError] = React.useState(false);
+  const [imgError, setImgError] = useState(false);
 
   return (
     <div
@@ -100,4 +91,5 @@ export const PlaylistCard: React.FC<PlaylistCardProps> = ({
     </div>
   );
 };
+
 export default PlaylistCard;

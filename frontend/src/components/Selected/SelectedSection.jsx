@@ -11,19 +11,9 @@ import {
   User,
   X,
 } from 'lucide-react';
-import type { Playlist, Track } from '../../types';
 import { getPlaylistTracks } from '../../api';
 
-interface SelectedSectionProps {
-  selectedPlaylists: Playlist[];
-  onRemovePlaylist: (playlistId: string) => void;
-  onCombinePlaylists: () => Promise<void>;
-  combining: boolean;
-  combineProgress: string;
-  onProceedToImport: () => void;
-}
-
-export const SelectedSection: React.FC<SelectedSectionProps> = ({
+export const SelectedSection = ({
   selectedPlaylists,
   onRemovePlaylist,
   onCombinePlaylists,
@@ -32,11 +22,11 @@ export const SelectedSection: React.FC<SelectedSectionProps> = ({
   onProceedToImport,
 }) => {
   // Modal for "View songs"
-  const [inspectPlaylist, setInspectPlaylist] = useState<Playlist | null>(null);
-  const [inspectTracks, setInspectTracks] = useState<Track[]>([]);
+  const [inspectPlaylist, setInspectPlaylist] = useState(null);
+  const [inspectTracks, setInspectTracks] = useState([]);
   const [loadingInspect, setLoadingInspect] = useState(false);
 
-  const handleOpenInspect = async (playlist: Playlist) => {
+  const handleOpenInspect = async (playlist) => {
     setInspectPlaylist(playlist);
     setLoadingInspect(true);
     setInspectTracks([]);
@@ -286,4 +276,5 @@ export const SelectedSection: React.FC<SelectedSectionProps> = ({
     </div>
   );
 };
+
 export default SelectedSection;

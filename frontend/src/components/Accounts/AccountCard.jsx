@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import { UserCircle2, CheckCircle2, AlertCircle, RefreshCw, Trash2, ShieldCheck, Mail } from 'lucide-react';
-import type { Account } from '../../types';
 
-interface AccountCardProps {
-  account: Account;
-  onReconnect: (accountId: string) => Promise<void>;
-  onRemove: (accountId: string) => Promise<void>;
-}
-
-export const AccountCard: React.FC<AccountCardProps> = ({ account, onReconnect, onRemove }) => {
+export const AccountCard = ({ account, onReconnect, onRemove }) => {
   const [imgError, setImgError] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
   const [removing, setRemoving] = useState(false);
@@ -142,4 +135,5 @@ export const AccountCard: React.FC<AccountCardProps> = ({ account, onReconnect, 
     </div>
   );
 };
+
 export default AccountCard;
