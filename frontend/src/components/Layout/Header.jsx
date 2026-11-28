@@ -26,6 +26,10 @@ const sectionTitles = {
     title: 'Export / Create Playlist',
     subtitle: 'Choose destination Google account and publish your centralized playlist.',
   },
+  downloads: {
+    title: 'Playlist Download Manager',
+    subtitle: 'Authorized multi-provider audio downloads, LRCLIB synchronized lyrics, and verified ZIP exports.',
+  },
 };
 
 export const Header = ({

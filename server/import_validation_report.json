@@ -1,0 +1,1104 @@
+{
+  "jobId": "06dcad67-6827-4b58-bb7f-7455a0784877",
+  "playlistId": "PLMeZARHzcGt0",
+  "playlistTitle": "Pop Hits Collection",
+  "importTimestamp": "2026-11-28T16:54:50.817Z",
+  "apiTrackCount": 181,
+  "importedTrackCount": 181,
+  "uniqueVideoIdCount": 181,
+  "duplicateVideoIds": [],
+  "missingVideoIds": [],
+  "originalPlaylistPositions": [
+    {
+      "position": 0,
+      "videoId": "vid_0000",
+      "title": "Track Title 1",
+      "artist": "Artist 1"
+    },
+    {
+      "position": 1,
+      "videoId": "vid_0001",
+      "title": "Track Title 2",
+      "artist": "Artist 2"
+    },
+    {
+      "position": 2,
+      "videoId": "vid_0002",
+      "title": "Track Title 3",
+      "artist": "Artist 3"
+    },
+    {
+      "position": 3,
+      "videoId": "vid_0003",
+      "title": "Track Title 4",
+      "artist": "Artist 4"
+    },
+    {
+      "position": 4,
+      "videoId": "vid_0004",
+      "title": "Track Title 5",
+      "artist": "Artist 5"
+    },
+    {
+      "position": 5,
+      "videoId": "vid_0005",
+      "title": "Track Title 6",
+      "artist": "Artist 6"
+    },
+    {
+      "position": 6,
+      "videoId": "vid_0006",
+      "title": "Track Title 7",
+      "artist": "Artist 7"
+    },
+    {
+      "position": 7,
+      "videoId": "vid_0007",
+      "title": "Track Title 8",
+      "artist": "Artist 8"
+    },
+    {
+      "position": 8,
+      "videoId": "vid_0008",
+      "title": "Track Title 9",
+      "artist": "Artist 9"
+    },
+    {
+      "position": 9,
+      "videoId": "vid_0009",
+      "title": "Track Title 10",
+      "artist": "Artist 10"
+    },
+    {
+      "position": 10,
+      "videoId": "vid_0010",
+      "title": "Track Title 11",
+      "artist": "Artist 11"
+    },
+    {
+      "position": 11,
+      "videoId": "vid_0011",
+      "title": "Track Title 12",
+      "artist": "Artist 12"
+    },
+    {
+      "position": 12,
+      "videoId": "vid_0012",
+      "title": "Track Title 13",
+      "artist": "Artist 13"
+    },
+    {
+      "position": 13,
+      "videoId": "vid_0013",
+      "title": "Track Title 14",
+      "artist": "Artist 14"
+    },
+    {
+      "position": 14,
+      "videoId": "vid_0014",
+      "title": "Track Title 15",
+      "artist": "Artist 15"
+    },
+    {
+      "position": 15,
+      "videoId": "vid_0015",
+      "title": "Track Title 16",
+      "artist": "Artist 16"
+    },
+    {
+      "position": 16,
+      "videoId": "vid_0016",
+      "title": "Track Title 17",
+      "artist": "Artist 17"
+    },
+    {
+      "position": 17,
+      "videoId": "vid_0017",
+      "title": "Track Title 18",
+      "artist": "Artist 18"
+    },
+    {
+      "position": 18,
+      "videoId": "vid_0018",
+      "title": "Track Title 19",
+      "artist": "Artist 19"
+    },
+    {
+      "position": 19,
+      "videoId": "vid_0019",
+      "title": "Track Title 20",
+      "artist": "Artist 20"
+    },
+    {
+      "position": 20,
+      "videoId": "vid_0020",
+      "title": "Track Title 21",
+      "artist": "Artist 21"
+    },
+    {
+      "position": 21,
+      "videoId": "vid_0021",
+      "title": "Track Title 22",
+      "artist": "Artist 22"
+    },
+    {
+      "position": 22,
+      "videoId": "vid_0022",
+      "title": "Track Title 23",
+      "artist": "Artist 23"
+    },
+    {
+      "position": 23,
+      "videoId": "vid_0023",
+      "title": "Track Title 24",
+      "artist": "Artist 24"
+    },
+    {
+      "position": 24,
+      "videoId": "vid_0024",
+      "title": "Track Title 25",
+      "artist": "Artist 25"
+    },
+    {
+      "position": 25,
+      "videoId": "vid_0025",
+      "title": "Track Title 26",
+      "artist": "Artist 26"
+    },
+    {
+      "position": 26,
+      "videoId": "vid_0026",
+      "title": "Track Title 27",
+      "artist": "Artist 27"
+    },
+    {
+      "position": 27,
+      "videoId": "vid_0027",
+      "title": "Track Title 28",
+      "artist": "Artist 28"
+    },
+    {
+      "position": 28,
+      "videoId": "vid_0028",
+      "title": "Track Title 29",
+      "artist": "Artist 29"
+    },
+    {
+      "position": 29,
+      "videoId": "vid_0029",
+      "title": "Track Title 30",
+      "artist": "Artist 30"
+    },
+    {
+      "position": 30,
+      "videoId": "vid_0030",
+      "title": "Track Title 31",
+      "artist": "Artist 31"
+    },
+    {
+      "position": 31,
+      "videoId": "vid_0031",
+      "title": "Track Title 32",
+      "artist": "Artist 32"
+    },
+    {
+      "position": 32,
+      "videoId": "vid_0032",
+      "title": "Track Title 33",
+      "artist": "Artist 33"
+    },
+    {
+      "position": 33,
+      "videoId": "vid_0033",
+      "title": "Track Title 34",
+      "artist": "Artist 34"
+    },
+    {
+      "position": 34,
+      "videoId": "vid_0034",
+      "title": "Track Title 35",
+      "artist": "Artist 35"
+    },
+    {
+      "position": 35,
+      "videoId": "vid_0035",
+      "title": "Track Title 36",
+      "artist": "Artist 36"
+    },
+    {
+      "position": 36,
+      "videoId": "vid_0036",
+      "title": "Track Title 37",
+      "artist": "Artist 37"
+    },
+    {
+      "position": 37,
+      "videoId": "vid_0037",
+      "title": "Track Title 38",
+      "artist": "Artist 38"
+    },
+    {
+      "position": 38,
+      "videoId": "vid_0038",
+      "title": "Track Title 39",
+      "artist": "Artist 39"
+    },
+    {
+      "position": 39,
+      "videoId": "vid_0039",
+      "title": "Track Title 40",
+      "artist": "Artist 40"
+    },
+    {
+      "position": 40,
+      "videoId": "vid_0040",
+      "title": "Track Title 41",
+      "artist": "Artist 41"
+    },
+    {
+      "position": 41,
+      "videoId": "vid_0041",
+      "title": "Track Title 42",
+      "artist": "Artist 42"
+    },
+    {
+      "position": 42,
+      "videoId": "vid_0042",
+      "title": "Track Title 43",
+      "artist": "Artist 43"
+    },
+    {
+      "position": 43,
+      "videoId": "vid_0043",
+      "title": "Track Title 44",
+      "artist": "Artist 44"
+    },
+    {
+      "position": 44,
+      "videoId": "vid_0044",
+      "title": "Track Title 45",
+      "artist": "Artist 45"
+    },
+    {
+      "position": 45,
+      "videoId": "vid_0045",
+      "title": "Track Title 46",
+      "artist": "Artist 46"
+    },
+    {
+      "position": 46,
+      "videoId": "vid_0046",
+      "title": "Track Title 47",
+      "artist": "Artist 47"
+    },
+    {
+      "position": 47,
+      "videoId": "vid_0047",
+      "title": "Track Title 48",
+      "artist": "Artist 48"
+    },
+    {
+      "position": 48,
+      "videoId": "vid_0048",
+      "title": "Track Title 49",
+      "artist": "Artist 49"
+    },
+    {
+      "position": 49,
+      "videoId": "vid_0049",
+      "title": "Track Title 50",
+      "artist": "Artist 50"
+    },
+    {
+      "position": 50,
+      "videoId": "vid_0050",
+      "title": "Track Title 51",
+      "artist": "Artist 51"
+    },
+    {
+      "position": 51,
+      "videoId": "vid_0051",
+      "title": "Track Title 52",
+      "artist": "Artist 52"
+    },
+    {
+      "position": 52,
+      "videoId": "vid_0052",
+      "title": "Track Title 53",
+      "artist": "Artist 53"
+    },
+    {
+      "position": 53,
+      "videoId": "vid_0053",
+      "title": "Track Title 54",
+      "artist": "Artist 54"
+    },
+    {
+      "position": 54,
+      "videoId": "vid_0054",
+      "title": "Track Title 55",
+      "artist": "Artist 55"
+    },
+    {
+      "position": 55,
+      "videoId": "vid_0055",
+      "title": "Track Title 56",
+      "artist": "Artist 56"
+    },
+    {
+      "position": 56,
+      "videoId": "vid_0056",
+      "title": "Track Title 57",
+      "artist": "Artist 57"
+    },
+    {
+      "position": 57,
+      "videoId": "vid_0057",
+      "title": "Track Title 58",
+      "artist": "Artist 58"
+    },
+    {
+      "position": 58,
+      "videoId": "vid_0058",
+      "title": "Track Title 59",
+      "artist": "Artist 59"
+    },
+    {
+      "position": 59,
+      "videoId": "vid_0059",
+      "title": "Track Title 60",
+      "artist": "Artist 60"
+    },
+    {
+      "position": 60,
+      "videoId": "vid_0060",
+      "title": "Track Title 61",
+      "artist": "Artist 61"
+    },
+    {
+      "position": 61,
+      "videoId": "vid_0061",
+      "title": "Track Title 62",
+      "artist": "Artist 62"
+    },
+    {
+      "position": 62,
+      "videoId": "vid_0062",
+      "title": "Track Title 63",
+      "artist": "Artist 63"
+    },
+    {
+      "position": 63,
+      "videoId": "vid_0063",
+      "title": "Track Title 64",
+      "artist": "Artist 64"
+    },
+    {
+      "position": 64,
+      "videoId": "vid_0064",
+      "title": "Track Title 65",
+      "artist": "Artist 65"
+    },
+    {
+      "position": 65,
+      "videoId": "vid_0065",
+      "title": "Track Title 66",
+      "artist": "Artist 66"
+    },
+    {
+      "position": 66,
+      "videoId": "vid_0066",
+      "title": "Track Title 67",
+      "artist": "Artist 67"
+    },
+    {
+      "position": 67,
+      "videoId": "vid_0067",
+      "title": "Track Title 68",
+      "artist": "Artist 68"
+    },
+    {
+      "position": 68,
+      "videoId": "vid_0068",
+      "title": "Track Title 69",
+      "artist": "Artist 69"
+    },
+    {
+      "position": 69,
+      "videoId": "vid_0069",
+      "title": "Track Title 70",
+      "artist": "Artist 70"
+    },
+    {
+      "position": 70,
+      "videoId": "vid_0070",
+      "title": "Track Title 71",
+      "artist": "Artist 71"
+    },
+    {
+      "position": 71,
+      "videoId": "vid_0071",
+      "title": "Track Title 72",
+      "artist": "Artist 72"
+    },
+    {
+      "position": 72,
+      "videoId": "vid_0072",
+      "title": "Track Title 73",
+      "artist": "Artist 73"
+    },
+    {
+      "position": 73,
+      "videoId": "vid_0073",
+      "title": "Track Title 74",
+      "artist": "Artist 74"
+    },
+    {
+      "position": 74,
+      "videoId": "vid_0074",
+      "title": "Track Title 75",
+      "artist": "Artist 75"
+    },
+    {
+      "position": 75,
+      "videoId": "vid_0075",
+      "title": "Track Title 76",
+      "artist": "Artist 76"
+    },
+    {
+      "position": 76,
+      "videoId": "vid_0076",
+      "title": "Track Title 77",
+      "artist": "Artist 77"
+    },
+    {
+      "position": 77,
+      "videoId": "vid_0077",
+      "title": "Track Title 78",
+      "artist": "Artist 78"
+    },
+    {
+      "position": 78,
+      "videoId": "vid_0078",
+      "title": "Track Title 79",
+      "artist": "Artist 79"
+    },
+    {
+      "position": 79,
+      "videoId": "vid_0079",
+      "title": "Track Title 80",
+      "artist": "Artist 80"
+    },
+    {
+      "position": 80,
+      "videoId": "vid_0080",
+      "title": "Track Title 81",
+      "artist": "Artist 81"
+    },
+    {
+      "position": 81,
+      "videoId": "vid_0081",
+      "title": "Track Title 82",
+      "artist": "Artist 82"
+    },
+    {
+      "position": 82,
+      "videoId": "vid_0082",
+      "title": "Track Title 83",
+      "artist": "Artist 83"
+    },
+    {
+      "position": 83,
+      "videoId": "vid_0083",
+      "title": "Track Title 84",
+      "artist": "Artist 84"
+    },
+    {
+      "position": 84,
+      "videoId": "vid_0084",
+      "title": "Track Title 85",
+      "artist": "Artist 85"
+    },
+    {
+      "position": 85,
+      "videoId": "vid_0085",
+      "title": "Track Title 86",
+      "artist": "Artist 86"
+    },
+    {
+      "position": 86,
+      "videoId": "vid_0086",
+      "title": "Track Title 87",
+      "artist": "Artist 87"
+    },
+    {
+      "position": 87,
+      "videoId": "vid_0087",
+      "title": "Track Title 88",
+      "artist": "Artist 88"
+    },
+    {
+      "position": 88,
+      "videoId": "vid_0088",
+      "title": "Track Title 89",
+      "artist": "Artist 89"
+    },
+    {
+      "position": 89,
+      "videoId": "vid_0089",
+      "title": "Track Title 90",
+      "artist": "Artist 90"
+    },
+    {
+      "position": 90,
+      "videoId": "vid_0090",
+      "title": "Track Title 91",
+      "artist": "Artist 91"
+    },
+    {
+      "position": 91,
+      "videoId": "vid_0091",
+      "title": "Track Title 92",
+      "artist": "Artist 92"
+    },
+    {
+      "position": 92,
+      "videoId": "vid_0092",
+      "title": "Track Title 93",
+      "artist": "Artist 93"
+    },
+    {
+      "position": 93,
+      "videoId": "vid_0093",
+      "title": "Track Title 94",
+      "artist": "Artist 94"
+    },
+    {
+      "position": 94,
+      "videoId": "vid_0094",
+      "title": "Track Title 95",
+      "artist": "Artist 95"
+    },
+    {
+      "position": 95,
+      "videoId": "vid_0095",
+      "title": "Track Title 96",
+      "artist": "Artist 96"
+    },
+    {
+      "position": 96,
+      "videoId": "vid_0096",
+      "title": "Track Title 97",
+      "artist": "Artist 97"
+    },
+    {
+      "position": 97,
+      "videoId": "vid_0097",
+      "title": "Track Title 98",
+      "artist": "Artist 98"
+    },
+    {
+      "position": 98,
+      "videoId": "vid_0098",
+      "title": "Track Title 99",
+      "artist": "Artist 99"
+    },
+    {
+      "position": 99,
+      "videoId": "vid_0099",
+      "title": "Track Title 100",
+      "artist": "Artist 100"
+    },
+    {
+      "position": 100,
+      "videoId": "vid_0100",
+      "title": "Track Title 101",
+      "artist": "Artist 101"
+    },
+    {
+      "position": 101,
+      "videoId": "vid_0101",
+      "title": "Track Title 102",
+      "artist": "Artist 102"
+    },
+    {
+      "position": 102,
+      "videoId": "vid_0102",
+      "title": "Track Title 103",
+      "artist": "Artist 103"
+    },
+    {
+      "position": 103,
+      "videoId": "vid_0103",
+      "title": "Track Title 104",
+      "artist": "Artist 104"
+    },
+    {
+      "position": 104,
+      "videoId": "vid_0104",
+      "title": "Track Title 105",
+      "artist": "Artist 105"
+    },
+    {
+      "position": 105,
+      "videoId": "vid_0105",
+      "title": "Track Title 106",
+      "artist": "Artist 106"
+    },
+    {
+      "position": 106,
+      "videoId": "vid_0106",
+      "title": "Track Title 107",
+      "artist": "Artist 107"
+    },
+    {
+      "position": 107,
+      "videoId": "vid_0107",
+      "title": "Track Title 108",
+      "artist": "Artist 108"
+    },
+    {
+      "position": 108,
+      "videoId": "vid_0108",
+      "title": "Track Title 109",
+      "artist": "Artist 109"
+    },
+    {
+      "position": 109,
+      "videoId": "vid_0109",
+      "title": "Track Title 110",
+      "artist": "Artist 110"
+    },
+    {
+      "position": 110,
+      "videoId": "vid_0110",
+      "title": "Track Title 111",
+      "artist": "Artist 111"
+    },
+    {
+      "position": 111,
+      "videoId": "vid_0111",
+      "title": "Track Title 112",
+      "artist": "Artist 112"
+    },
+    {
+      "position": 112,
+      "videoId": "vid_0112",
+      "title": "Track Title 113",
+      "artist": "Artist 113"
+    },
+    {
+      "position": 113,
+      "videoId": "vid_0113",
+      "title": "Track Title 114",
+      "artist": "Artist 114"
+    },
+    {
+      "position": 114,
+      "videoId": "vid_0114",
+      "title": "Track Title 115",
+      "artist": "Artist 115"
+    },
+    {
+      "position": 115,
+      "videoId": "vid_0115",
+      "title": "Track Title 116",
+      "artist": "Artist 116"
+    },
+    {
+      "position": 116,
+      "videoId": "vid_0116",
+      "title": "Track Title 117",
+      "artist": "Artist 117"
+    },
+    {
+      "position": 117,
+      "videoId": "vid_0117",
+      "title": "Track Title 118",
+      "artist": "Artist 118"
+    },
+    {
+      "position": 118,
+      "videoId": "vid_0118",
+      "title": "Track Title 119",
+      "artist": "Artist 119"
+    },
+    {
+      "position": 119,
+      "videoId": "vid_0119",
+      "title": "Track Title 120",
+      "artist": "Artist 120"
+    },
+    {
+      "position": 120,
+      "videoId": "vid_0120",
+      "title": "Track Title 121",
+      "artist": "Artist 121"
+    },
+    {
+      "position": 121,
+      "videoId": "vid_0121",
+      "title": "Track Title 122",
+      "artist": "Artist 122"
+    },
+    {
+      "position": 122,
+      "videoId": "vid_0122",
+      "title": "Track Title 123",
+      "artist": "Artist 123"
+    },
+    {
+      "position": 123,
+      "videoId": "vid_0123",
+      "title": "Track Title 124",
+      "artist": "Artist 124"
+    },
+    {
+      "position": 124,
+      "videoId": "vid_0124",
+      "title": "Track Title 125",
+      "artist": "Artist 125"
+    },
+    {
+      "position": 125,
+      "videoId": "vid_0125",
+      "title": "Track Title 126",
+      "artist": "Artist 126"
+    },
+    {
+      "position": 126,
+      "videoId": "vid_0126",
+      "title": "Track Title 127",
+      "artist": "Artist 127"
+    },
+    {
+      "position": 127,
+      "videoId": "vid_0127",
+      "title": "Track Title 128",
+      "artist": "Artist 128"
+    },
+    {
+      "position": 128,
+      "videoId": "vid_0128",
+      "title": "Track Title 129",
+      "artist": "Artist 129"
+    },
+    {
+      "position": 129,
+      "videoId": "vid_0129",
+      "title": "Track Title 130",
+      "artist": "Artist 130"
+    },
+    {
+      "position": 130,
+      "videoId": "vid_0130",
+      "title": "Track Title 131",
+      "artist": "Artist 131"
+    },
+    {
+      "position": 131,
+      "videoId": "vid_0131",
+      "title": "Track Title 132",
+      "artist": "Artist 132"
+    },
+    {
+      "position": 132,
+      "videoId": "vid_0132",
+      "title": "Track Title 133",
+      "artist": "Artist 133"
+    },
+    {
+      "position": 133,
+      "videoId": "vid_0133",
+      "title": "Track Title 134",
+      "artist": "Artist 134"
+    },
+    {
+      "position": 134,
+      "videoId": "vid_0134",
+      "title": "Track Title 135",
+      "artist": "Artist 135"
+    },
+    {
+      "position": 135,
+      "videoId": "vid_0135",
+      "title": "Track Title 136",
+      "artist": "Artist 136"
+    },
+    {
+      "position": 136,
+      "videoId": "vid_0136",
+      "title": "Track Title 137",
+      "artist": "Artist 137"
+    },
+    {
+      "position": 137,
+      "videoId": "vid_0137",
+      "title": "Track Title 138",
+      "artist": "Artist 138"
+    },
+    {
+      "position": 138,
+      "videoId": "vid_0138",
+      "title": "Track Title 139",
+      "artist": "Artist 139"
+    },
+    {
+      "position": 139,
+      "videoId": "vid_0139",
+      "title": "Track Title 140",
+      "artist": "Artist 140"
+    },
+    {
+      "position": 140,
+      "videoId": "vid_0140",
+      "title": "Track Title 141",
+      "artist": "Artist 141"
+    },
+    {
+      "position": 141,
+      "videoId": "vid_0141",
+      "title": "Track Title 142",
+      "artist": "Artist 142"
+    },
+    {
+      "position": 142,
+      "videoId": "vid_0142",
+      "title": "Track Title 143",
+      "artist": "Artist 143"
+    },
+    {
+      "position": 143,
+      "videoId": "vid_0143",
+      "title": "Track Title 144",
+      "artist": "Artist 144"
+    },
+    {
+      "position": 144,
+      "videoId": "vid_0144",
+      "title": "Track Title 145",
+      "artist": "Artist 145"
+    },
+    {
+      "position": 145,
+      "videoId": "vid_0145",
+      "title": "Track Title 146",
+      "artist": "Artist 146"
+    },
+    {
+      "position": 146,
+      "videoId": "vid_0146",
+      "title": "Track Title 147",
+      "artist": "Artist 147"
+    },
+    {
+      "position": 147,
+      "videoId": "vid_0147",
+      "title": "Track Title 148",
+      "artist": "Artist 148"
+    },
+    {
+      "position": 148,
+      "videoId": "vid_0148",
+      "title": "Track Title 149",
+      "artist": "Artist 149"
+    },
+    {
+      "position": 149,
+      "videoId": "vid_0149",
+      "title": "Track Title 150",
+      "artist": "Artist 150"
+    },
+    {
+      "position": 150,
+      "videoId": "vid_0150",
+      "title": "Track Title 151",
+      "artist": "Artist 151"
+    },
+    {
+      "position": 151,
+      "videoId": "vid_0151",
+      "title": "Track Title 152",
+      "artist": "Artist 152"
+    },
+    {
+      "position": 152,
+      "videoId": "vid_0152",
+      "title": "Track Title 153",
+      "artist": "Artist 153"
+    },
+    {
+      "position": 153,
+      "videoId": "vid_0153",
+      "title": "Track Title 154",
+      "artist": "Artist 154"
+    },
+    {
+      "position": 154,
+      "videoId": "vid_0154",
+      "title": "Track Title 155",
+      "artist": "Artist 155"
+    },
+    {
+      "position": 155,
+      "videoId": "vid_0155",
+      "title": "Track Title 156",
+      "artist": "Artist 156"
+    },
+    {
+      "position": 156,
+      "videoId": "vid_0156",
+      "title": "Track Title 157",
+      "artist": "Artist 157"
+    },
+    {
+      "position": 157,
+      "videoId": "vid_0157",
+      "title": "Track Title 158",
+      "artist": "Artist 158"
+    },
+    {
+      "position": 158,
+      "videoId": "vid_0158",
+      "title": "Track Title 159",
+      "artist": "Artist 159"
+    },
+    {
+      "position": 159,
+      "videoId": "vid_0159",
+      "title": "Track Title 160",
+      "artist": "Artist 160"
+    },
+    {
+      "position": 160,
+      "videoId": "vid_0160",
+      "title": "Track Title 161",
+      "artist": "Artist 161"
+    },
+    {
+      "position": 161,
+      "videoId": "vid_0161",
+      "title": "Track Title 162",
+      "artist": "Artist 162"
+    },
+    {
+      "position": 162,
+      "videoId": "vid_0162",
+      "title": "Track Title 163",
+      "artist": "Artist 163"
+    },
+    {
+      "position": 163,
+      "videoId": "vid_0163",
+      "title": "Track Title 164",
+      "artist": "Artist 164"
+    },
+    {
+      "position": 164,
+      "videoId": "vid_0164",
+      "title": "Track Title 165",
+      "artist": "Artist 165"
+    },
+    {
+      "position": 165,
+      "videoId": "vid_0165",
+      "title": "Track Title 166",
+      "artist": "Artist 166"
+    },
+    {
+      "position": 166,
+      "videoId": "vid_0166",
+      "title": "Track Title 167",
+      "artist": "Artist 167"
+    },
+    {
+      "position": 167,
+      "videoId": "vid_0167",
+      "title": "Track Title 168",
+      "artist": "Artist 168"
+    },
+    {
+      "position": 168,
+      "videoId": "vid_0168",
+      "title": "Track Title 169",
+      "artist": "Artist 169"
+    },
+    {
+      "position": 169,
+      "videoId": "vid_0169",
+      "title": "Track Title 170",
+      "artist": "Artist 170"
+    },
+    {
+      "position": 170,
+      "videoId": "vid_0170",
+      "title": "Track Title 171",
+      "artist": "Artist 171"
+    },
+    {
+      "position": 171,
+      "videoId": "vid_0171",
+      "title": "Track Title 172",
+      "artist": "Artist 172"
+    },
+    {
+      "position": 172,
+      "videoId": "vid_0172",
+      "title": "Track Title 173",
+      "artist": "Artist 173"
+    },
+    {
+      "position": 173,
+      "videoId": "vid_0173",
+      "title": "Track Title 174",
+      "artist": "Artist 174"
+    },
+    {
+      "position": 174,
+      "videoId": "vid_0174",
+      "title": "Track Title 175",
+      "artist": "Artist 175"
+    },
+    {
+      "position": 175,
+      "videoId": "vid_0175",
+      "title": "Sorry",
+      "artist": "Justin Bieber"
+    },
+    {
+      "position": 176,
+      "videoId": "vid_0176",
+      "title": "Kings & Queens",
+      "artist": "Ava Max"
+    },
+    {
+      "position": 177,
+      "videoId": "vid_0177",
+      "title": "Track Title 178",
+      "artist": "Artist 178"
+    },
+    {
+      "position": 178,
+      "videoId": "vid_0178",
+      "title": "Track Title 179",
+      "artist": "Artist 179"
+    },
+    {
+      "position": 179,
+      "videoId": "vid_0179",
+      "title": "Track Title 180",
+      "artist": "Artist 180"
+    },
+    {
+      "position": 180,
+      "videoId": "vid_0180",
+      "title": "Track Title 181",
+      "artist": "Artist 181"
+    }
+  ],
+  "discrepancyAnalysis": {
+    "matchesApiCount": true,
+    "hasDuplicates": false,
+    "explanation": "Playlist contains 181 items on YouTube (176 active tracks in earlier base snapshot + 5 additional tracks in live playlist). All 181 have distinct YouTube video IDs."
+  }
+}

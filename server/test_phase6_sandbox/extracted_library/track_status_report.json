@@ -1,0 +1,46 @@
+{
+  "snapshotId": "snapshot_PLMeZARHzcGt0_v2_3",
+  "playlistId": "PLMeZARHzcGt0",
+  "exportedAt": "2026-11-28T16:55:21.198Z",
+  "summary": {
+    "total": 3,
+    "includedAudio": 3,
+    "excludedRightsAudio": 0,
+    "includedLyrics": 2
+  },
+  "tracks": [
+    {
+      "position": 1,
+      "playlist_position": 0,
+      "playlist_track_number": 1,
+      "album_track_number": null,
+      "title": "Creative Freedom",
+      "artist": "Jamendo Artist 1",
+      "audioExportStatus": "INCLUDED",
+      "exclusionReason": null,
+      "lyricsStatus": "VERIFIED_SYNCHRONIZED"
+    },
+    {
+      "position": 2,
+      "playlist_position": 1,
+      "playlist_track_number": 2,
+      "album_track_number": null,
+      "title": "Acoustic Journey",
+      "artist": "Jamendo Artist 2",
+      "audioExportStatus": "INCLUDED",
+      "exclusionReason": null,
+      "lyricsStatus": "PLAIN"
+    },
+    {
+      "position": 3,
+      "playlist_position": 2,
+      "playlist_track_number": 3,
+      "album_track_number": null,
+      "title": "Ambient Waves",
+      "artist": "Jamendo Artist 3",
+      "audioExportStatus": "INCLUDED",
+      "exclusionReason": null,
+      "lyricsStatus": "UNAVAILABLE"
+    }
+  ]
+}

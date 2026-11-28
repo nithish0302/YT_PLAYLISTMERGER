@@ -10,6 +10,9 @@ const { initDB } = require('./db');
 const authRoutes = require('./routes/auth');
 const playlistRoutes = require('./routes/playlists');
 const accountRoutes = require('./routes/accounts');
+const downloadRoutes = require('./routes/downloads');
+const coverageRoutes = require('./routes/coverage');
+const libraryRoutes = require('./routes/library');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -43,6 +46,9 @@ app.use(session({
 app.use('/auth', authRoutes);
 app.use('/api/playlists', playlistRoutes);
 app.use('/api/accounts', accountRoutes);
+app.use('/api/downloads', downloadRoutes);
+app.use('/api/coverage', coverageRoutes);
+app.use('/api/library', libraryRoutes);
 
 // Health check
 app.get('/api/health', (_req, res) => {
@@ -54,11 +60,12 @@ app.use((_req, res) => {
   res.status(404).json({ error: 'Route not found' });
 });
 
-// Global error handler
+// Global error handler (never leaks stack traces or file paths to client)
 // eslint-disable-next-line no-unused-vars
 app.use((err, _req, res, _next) => {
-  console.error('[Server Error]', err);
-  res.status(err.status || 500).json({ error: err.message || 'Internal server error' });
+  console.error('[Server Error]', err.message);
+  const status = err.statusCode || err.status || 500;
+  res.status(status).json({ error: err.message || 'Internal server error' });
 });
 
 // ── Bootstrap ─────────────────────────────────────────────────────────────────

@@ -6,8 +6,10 @@ import {
   Copy,
   SlidersHorizontal,
   UploadCloud,
+  HardDriveDownload,
   Music2,
   Sparkles,
+  Scan,
 } from 'lucide-react';
 
 export const Sidebar = ({
@@ -56,6 +58,20 @@ export const Sidebar = ({
       id: 'export',
       label: 'Export to YouTube',
       icon: UploadCloud,
+    },
+    {
+      id: 'downloads',
+      label: 'Download Manager',
+      icon: HardDriveDownload,
+      badge: 'FLAC+LRC',
+      badgeColor: 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30',
+    },
+    {
+      id: 'coverage',
+      label: 'Coverage Analysis',
+      icon: Scan,
+      badge: 'Scan',
+      badgeColor: 'bg-teal-500/20 text-teal-300 border border-teal-500/30',
     },
   ];
 

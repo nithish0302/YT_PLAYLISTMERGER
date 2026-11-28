@@ -8,6 +8,8 @@ import SelectedSection from './components/Selected/SelectedSection';
 import DuplicatesSection from './components/Duplicates/DuplicatesSection';
 import EditorSection from './components/Editor/EditorSection';
 import ExportSection from './components/Export/ExportSection';
+import DownloadsSection from './components/Downloads/DownloadsSection';
+import CoverageSection from './components/Coverage/CoverageSection';
 
 import { getAccounts, getPlaylistTracks } from './api';
 import {
@@ -335,6 +337,16 @@ export const App = () => {
               onAccountsUpdated={refreshAccounts}
               onStartOver={handleStartOver}
             />
+          )}
+
+          {currentSection === 'downloads' && (
+            <DownloadsSection
+              accounts={accounts}
+            />
+          )}
+
+          {currentSection === 'coverage' && (
+            <CoverageSection />
           )}
         </main>
       </div>

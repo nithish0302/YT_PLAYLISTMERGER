@@ -1,0 +1,17 @@
+{
+  "jobId": "275a8d01-08f7-42f0-ad97-b01b0cd6394d",
+  "playlistId": null,
+  "playlistTitle": "Imported Playlist",
+  "importTimestamp": "2026-11-28T11:54:15.526Z",
+  "apiTrackCount": 0,
+  "importedTrackCount": 0,
+  "uniqueVideoIdCount": 0,
+  "duplicateVideoIds": [],
+  "missingVideoIds": [],
+  "originalPlaylistPositions": [],
+  "discrepancyAnalysis": {
+    "matchesApiCount": true,
+    "hasDuplicates": false,
+    "explanation": "Imported 0 tracks with 0 unique video IDs."
+  }
+}

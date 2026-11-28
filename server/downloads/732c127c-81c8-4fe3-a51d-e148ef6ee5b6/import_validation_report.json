@@ -1,0 +1,1104 @@
+{
+  "jobId": "732c127c-81c8-4fe3-a51d-e148ef6ee5b6",
+  "playlistId": "PLMeZARHzcGt0",
+  "playlistTitle": "Pop Hits Collection",
+  "importTimestamp": "2026-11-28T07:10:38.102Z",
+  "apiTrackCount": 181,
+  "importedTrackCount": 181,
+  "uniqueVideoIdCount": 181,
+  "duplicateVideoIds": [],
+  "missingVideoIds": [],
+  "originalPlaylistPositions": [
+    {
+      "position": 0,
+      "videoId": "vTMAa6zZ7jY",
+      "title": "7 Years",
+      "artist": "Lukas Graham - Topic"
+    },
+    {
+      "position": 1,
+      "videoId": "TA1W-pHNKl8",
+      "title": "a thousand years",
+      "artist": "Christina Perri - Topic"
+    },
+    {
+      "position": 2,
+      "videoId": "rBR1nwYIFck",
+      "title": "Ainsi bas la vida",
+      "artist": "Indila - Topic"
+    },
+    {
+      "position": 3,
+      "videoId": "HhjHYkPQ8F0",
+      "title": "Alan Walker & Ava Max - Alone, Pt. II",
+      "artist": "Alan Walker"
+    },
+    {
+      "position": 4,
+      "videoId": "ciwx8yJPX54",
+      "title": "Alone, Pt. II",
+      "artist": "Ava Max - Topic"
+    },
+    {
+      "position": 5,
+      "videoId": "5DF9aRuiOZo",
+      "title": "Animals",
+      "artist": "Maroon 5 - Topic"
+    },
+    {
+      "position": 6,
+      "videoId": "H4buRu9-Wb4",
+      "title": "Another Love",
+      "artist": "Tom Odell - Topic"
+    },
+    {
+      "position": 7,
+      "videoId": "DiTd771WumE",
+      "title": "APT.",
+      "artist": "ROSÉ - Topic"
+    },
+    {
+      "position": 8,
+      "videoId": "TcSAv2kFNJ0",
+      "title": "Arcade",
+      "artist": "Duncan Laurence - Topic"
+    },
+    {
+      "position": 9,
+      "videoId": "5-FGxUINL-Q",
+      "title": "Astronaut In The Ocean",
+      "artist": "Masked Wolf - Topic"
+    },
+    {
+      "position": 10,
+      "videoId": "_gCHbS64wrU",
+      "title": "Astronaut in the Ocean",
+      "artist": "Arem Ozguc - Topic"
+    },
+    {
+      "position": 11,
+      "videoId": "vxUBYHz_q1I",
+      "title": "Attention",
+      "artist": "Charlie Puth - Topic"
+    },
+    {
+      "position": 12,
+      "videoId": "7ifyPIoevKM",
+      "title": "Aurora - Runaway (lyrics)",
+      "artist": "Chilled Sad"
+    },
+    {
+      "position": 13,
+      "videoId": "GqWYJT-iMTw",
+      "title": "Baby",
+      "artist": "Justin Bieber - Topic"
+    },
+    {
+      "position": 14,
+      "videoId": "lmG0kY9FtRY",
+      "title": "Bad Boy (feat. Luana Kiara)",
+      "artist": "Raaban - Topic"
+    },
+    {
+      "position": 15,
+      "videoId": "eLhSxOAaWmg",
+      "title": "Beautiful Things",
+      "artist": "Benson Boone - Topic"
+    },
+    {
+      "position": 16,
+      "videoId": "ZWKpPDI1M-o",
+      "title": "Beggin'",
+      "artist": "Måneskin - Topic"
+    },
+    {
+      "position": 17,
+      "videoId": "Kx7B-XvmFtE",
+      "title": "Believer",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 18,
+      "videoId": "JCf7lKL1UQ4",
+      "title": "Big Dawgs",
+      "artist": "Hanumankind - Topic"
+    },
+    {
+      "position": 19,
+      "videoId": "V1Pl8CzNzCw",
+      "title": "Billie Eilish, Khalid - lovely",
+      "artist": "BillieEilishVEVO"
+    },
+    {
+      "position": 20,
+      "videoId": "-MtKC5wXqdQ",
+      "title": "Blank Space (Taylor's Version)",
+      "artist": "Taylor Swift - Topic"
+    },
+    {
+      "position": 21,
+      "videoId": "J7p4bzqLvCw",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd - Topic"
+    },
+    {
+      "position": 22,
+      "videoId": "MHCsrKA9gh8",
+      "title": "blue",
+      "artist": "yung kai - Topic"
+    },
+    {
+      "position": 23,
+      "videoId": "V2SVRJ6dcE4",
+      "title": "Bones",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 24,
+      "videoId": "fxHjlCBHuzA",
+      "title": "Bye Bye Bye",
+      "artist": "*NSYNC - Topic"
+    },
+    {
+      "position": 25,
+      "videoId": "UgpIk0v8Z2g",
+      "title": "Car's Outside",
+      "artist": "James Arthur - Topic"
+    },
+    {
+      "position": 26,
+      "videoId": "K_idN3P5_yk",
+      "title": "Cheap Thrills",
+      "artist": "Sia - Topic"
+    },
+    {
+      "position": 27,
+      "videoId": "6jodhk_cYSg",
+      "title": "Clandestina (Cocaina Remix)",
+      "artist": "FILV - Topic"
+    },
+    {
+      "position": 28,
+      "videoId": "0khIJO3zP9Y",
+      "title": "Cold",
+      "artist": "NEFFEX - Topic"
+    },
+    {
+      "position": 29,
+      "videoId": "YykjpeuMNEk",
+      "title": "Coldplay - Hymn For The Weekend (Official Video)",
+      "artist": "Coldplay"
+    },
+    {
+      "position": 30,
+      "videoId": "8_Cw99SiHvc",
+      "title": "Cradles",
+      "artist": "Sub Urban - Topic"
+    },
+    {
+      "position": 31,
+      "videoId": "LjtvF_UuRIU",
+      "title": "Dancin (Krono Remix)",
+      "artist": "Aaron Smith - Topic"
+    },
+    {
+      "position": 32,
+      "videoId": "HZbsLxL7GeM",
+      "title": "Dandelions",
+      "artist": "Ruth B. - Topic"
+    },
+    {
+      "position": 33,
+      "videoId": "gxTRx4uurxs",
+      "title": "Dark Horse",
+      "artist": "Katy Perry - Topic"
+    },
+    {
+      "position": 34,
+      "videoId": "jcKVfhr6O24",
+      "title": "DARKSIDE",
+      "artist": "Neoni - Topic"
+    },
+    {
+      "position": 35,
+      "videoId": "uO59tfQ2TbA",
+      "title": "David Guetta - Hey Mama (Official Video) ft Nicki Minaj, Bebe Rexha & Afrojack",
+      "artist": "David Guetta"
+    },
+    {
+      "position": 36,
+      "videoId": "Y1gswBe-DjM",
+      "title": "Daylight",
+      "artist": "David Kushner - Topic"
+    },
+    {
+      "position": 37,
+      "videoId": "y4FiCl-tUJc",
+      "title": "Demons",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 38,
+      "videoId": "cKE4wJMcAkc",
+      "title": "Dernière danse",
+      "artist": "Indila - Topic"
+    },
+    {
+      "position": 39,
+      "videoId": "4mVo93E9wpU",
+      "title": "Diamonds",
+      "artist": "Rihanna - Topic"
+    },
+    {
+      "position": 40,
+      "videoId": "RVDCeVG90Rg",
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga - Topic"
+    },
+    {
+      "position": 41,
+      "videoId": "qJjTqVuGzkM",
+      "title": "Dream On",
+      "artist": "Aerosmith - Topic"
+    },
+    {
+      "position": 42,
+      "videoId": "feq6MOg3qpA",
+      "title": "DripReport - Skechers (Official Music Video) Prod. OUHBOY",
+      "artist": "DripReport"
+    },
+    {
+      "position": 43,
+      "videoId": "j-0kLu3O7qU",
+      "title": "Dusk Till Dawn (Radio Edit)",
+      "artist": "ZAYN - Topic"
+    },
+    {
+      "position": 44,
+      "videoId": "AMRmWV_5HEE",
+      "title": "Ed Sheeran-Shape of You ( 100D ,NOT 8D) | AUDIO | USE HEADPHONES | SUBSCRIBE",
+      "artist": "MARIDIC MUSIC-100D AUDIO'S"
+    },
+    {
+      "position": 45,
+      "videoId": "vxa8ShIm9yw",
+      "title": "Enemy (From the series Arcane League of Legends)",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 46,
+      "videoId": "WmQHSkjgyDM",
+      "title": "Enemy (from the series Arcane League of Legends)",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 47,
+      "videoId": "kIft-LUHHVA",
+      "title": "Espresso",
+      "artist": "Sabrina Carpenter - Topic"
+    },
+    {
+      "position": 48,
+      "videoId": "pIWaVJPl0-c",
+      "title": "Faded",
+      "artist": "Alan Walker - Topic"
+    },
+    {
+      "position": 49,
+      "videoId": "Wk3Vxt3knnI",
+      "title": "FEARLESS",
+      "artist": "LE SSERAFIM - Topic"
+    },
+    {
+      "position": 50,
+      "videoId": "JTjmZZ1W2ew",
+      "title": "Fearless Pt. II",
+      "artist": "Lost Sky - Topic"
+    },
+    {
+      "position": 51,
+      "videoId": "-Tme_8A_yqI",
+      "title": "fenekot - Mockingbird",
+      "artist": "fenekot"
+    },
+    {
+      "position": 52,
+      "videoId": "46azAz0AWv8",
+      "title": "Gasolina",
+      "artist": "Daddy Yankee - Topic"
+    },
+    {
+      "position": 53,
+      "videoId": "XDbW5bXrm7I",
+      "title": "Girls Like You (Cardi B Version)",
+      "artist": "Maroon 5 - Topic"
+    },
+    {
+      "position": 54,
+      "videoId": "zQ2gReBlHg0",
+      "title": "Go Down Deh (feat. Sean Paul & Shaggy)",
+      "artist": "Spice - Topic"
+    },
+    {
+      "position": 55,
+      "videoId": "dAgNwavNAHQ",
+      "title": "Grateful",
+      "artist": "NEFFEX - Topic"
+    },
+    {
+      "position": 56,
+      "videoId": "FT0Xp2BrVZA",
+      "title": "happier",
+      "artist": "Olivia Rodrigo - Topic"
+    },
+    {
+      "position": 57,
+      "videoId": "XDjB9E3YtUE",
+      "title": "Heat Waves",
+      "artist": "Glass Animals - Topic"
+    },
+    {
+      "position": 58,
+      "videoId": "Hsz6hL_a69Q",
+      "title": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+      "artist": "David Guetta - Topic"
+    },
+    {
+      "position": 59,
+      "videoId": "nOj6d-HOw2w",
+      "title": "Hips Don't Lie",
+      "artist": "Shakira - Topic"
+    },
+    {
+      "position": 60,
+      "videoId": "a2kSzfzDu8Y",
+      "title": "Hislerim",
+      "artist": "Serhat Durmus - Topic"
+    },
+    {
+      "position": 61,
+      "videoId": "H3Kzh6RrnMc",
+      "title": "Hymn for the Weekend",
+      "artist": "Coldplay - Topic"
+    },
+    {
+      "position": 62,
+      "videoId": "-K9VwBEOI-Q",
+      "title": "I Ain't Worried",
+      "artist": "OneRepublic - Topic"
+    },
+    {
+      "position": 63,
+      "videoId": "0T-BCIFeqq8",
+      "title": "I WANNA BE YOUR SLAVE",
+      "artist": "Måneskin - Topic"
+    },
+    {
+      "position": 64,
+      "videoId": "nyuo9-OjNNg",
+      "title": "I Wanna Be Yours",
+      "artist": "Arctic Monkeys - Topic"
+    },
+    {
+      "position": 65,
+      "videoId": "jPe0bX_GtBo",
+      "title": "INDUSTRY BABY",
+      "artist": "Lil Nas X - Topic"
+    },
+    {
+      "position": 66,
+      "videoId": "WMK3JXG3Fx0",
+      "title": "Infinity",
+      "artist": "Jaymes Young - Topic"
+    },
+    {
+      "position": 67,
+      "videoId": "zgG9-fQXl0k",
+      "title": "Into Your Arms (feat. Ava Max)",
+      "artist": "Witt Lowry - Topic"
+    },
+    {
+      "position": 68,
+      "videoId": "LXyjfMkw5zU",
+      "title": "Lalala",
+      "artist": "Y2K - Topic"
+    },
+    {
+      "position": 69,
+      "videoId": "5vOid-7uBdQ",
+      "title": "Lean On",
+      "artist": "Major Lazer - Topic"
+    },
+    {
+      "position": 70,
+      "videoId": "Kcj5-jWxgKs",
+      "title": "Let Me Down Slowly",
+      "artist": "Alec Benjamin - Topic"
+    },
+    {
+      "position": 71,
+      "videoId": "OsfAnsMY21M",
+      "title": "Levitating",
+      "artist": "Dua Lipa - Topic"
+    },
+    {
+      "position": 72,
+      "videoId": "EKkzbbLYPuI",
+      "title": "Lindsey Stirling - Carol of the Bells (Official Music Video)",
+      "artist": "Lindsey Stirling"
+    },
+    {
+      "position": 73,
+      "videoId": "HiXx5JFRxb4",
+      "title": "Love Is Gone (Acoustic)",
+      "artist": "SLANDER - Topic"
+    },
+    {
+      "position": 74,
+      "videoId": "tQ2l9zKInDY",
+      "title": "love nwantiti (ah ah ah)",
+      "artist": "CKay - Topic"
+    },
+    {
+      "position": 75,
+      "videoId": "p-IXgwqhfmg",
+      "title": "Love Yourself",
+      "artist": "Justin Bieber - Topic"
+    },
+    {
+      "position": 76,
+      "videoId": "MMfpp0-lnw4",
+      "title": "lovely",
+      "artist": "Billie Eilish - Topic"
+    },
+    {
+      "position": 77,
+      "videoId": "5WEv5voUGio",
+      "title": "Mamushi (feat. Yuki Chiba)",
+      "artist": "Megan Thee Stallion - Topic"
+    },
+    {
+      "position": 78,
+      "videoId": "seJ83vfHoIU",
+      "title": "Mary On A Cross",
+      "artist": "Ghost - Topic"
+    },
+    {
+      "position": 79,
+      "videoId": "lNilb-EaTOU",
+      "title": "Memories",
+      "artist": "Maroon 5 - Topic"
+    },
+    {
+      "position": 80,
+      "videoId": "4zsVKROnQfY",
+      "title": "MIDDLE OF THE NIGHT",
+      "artist": "Elley Duhé - Topic"
+    },
+    {
+      "position": 81,
+      "videoId": "9kznlAwE-8o",
+      "title": "Mockingbird",
+      "artist": "Eminem - Topic"
+    },
+    {
+      "position": 82,
+      "videoId": "yYIJuFFJd7Q",
+      "title": "Monster",
+      "artist": "LUM!X - Topic"
+    },
+    {
+      "position": 83,
+      "videoId": "oz0Oz5tBOg8",
+      "title": "MONTERO (Call Me By Your Name)",
+      "artist": "Lil Nas X - Topic"
+    },
+    {
+      "position": 84,
+      "videoId": "UNOtbkQxECI",
+      "title": "Mood",
+      "artist": "24kGoldn - Topic"
+    },
+    {
+      "position": 85,
+      "videoId": "WzQBAc8i73E",
+      "title": "NEFFEX - Cold ❄️[Copyright Free] No.60",
+      "artist": "NEFFEX"
+    },
+    {
+      "position": 86,
+      "videoId": "8BiLurrzFRw",
+      "title": "Night Changes",
+      "artist": "One Direction - Topic"
+    },
+    {
+      "position": 87,
+      "videoId": "jOF8gqpoPgs",
+      "title": "No Lie",
+      "artist": "Sean Paul - Topic"
+    },
+    {
+      "position": 88,
+      "videoId": "TxcmdhjmnEE",
+      "title": "Old Town Road (Remix)",
+      "artist": "Lil Nas X - Topic"
+    },
+    {
+      "position": 89,
+      "videoId": "TFYmUz_prtI",
+      "title": "On & On",
+      "artist": "CARTOON - Topic"
+    },
+    {
+      "position": 90,
+      "videoId": "ZM8rAsTT7yE",
+      "title": "On My Way",
+      "artist": "Sabrina Carpenter - Topic"
+    },
+    {
+      "position": 91,
+      "videoId": "7pFXFu59iNw",
+      "title": "One Call Away",
+      "artist": "Charlie Puth - Topic"
+    },
+    {
+      "position": 92,
+      "videoId": "smKgVuSB18k",
+      "title": "Payphone",
+      "artist": "Maroon 5 - Topic"
+    },
+    {
+      "position": 93,
+      "videoId": "ORrFJ63nlcA",
+      "title": "Perfect",
+      "artist": "Ed Sheeran - Topic"
+    },
+    {
+      "position": 94,
+      "videoId": "o_TYVGp9n0s",
+      "title": "Phao - 2 Phut Hon (KAIZ Remix) | 9D AUDIO 🎧",
+      "artist": "Shake Music"
+    },
+    {
+      "position": 95,
+      "videoId": "CQLsdm1ZYAw",
+      "title": "Rema - Calm Down (Official Music Video)",
+      "artist": "Rema"
+    },
+    {
+      "position": 96,
+      "videoId": "AaxFIY-cWH0",
+      "title": "rockstar",
+      "artist": "Post Malone - Topic"
+    },
+    {
+      "position": 97,
+      "videoId": "4ujBQOzs6Lw",
+      "title": "Rolling in the Deep",
+      "artist": "Adele - Topic"
+    },
+    {
+      "position": 98,
+      "videoId": "7CNHJLh8omE",
+      "title": "Royalty",
+      "artist": "Egzod - Topic"
+    },
+    {
+      "position": 99,
+      "videoId": "0r5Qu4KbESM",
+      "title": "Run It Up",
+      "artist": "Hanumankind - Topic"
+    },
+    {
+      "position": 100,
+      "videoId": "BRpS93I8_Jk",
+      "title": "Runaway",
+      "artist": "AURORA - Topic"
+    },
+    {
+      "position": 101,
+      "videoId": "RmYCOm4ehKs",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd - Topic"
+    },
+    {
+      "position": 102,
+      "videoId": "nugmZqIP0uk",
+      "title": "See You Again (feat. Charlie Puth)",
+      "artist": "Wiz Khalifa - Topic"
+    },
+    {
+      "position": 103,
+      "videoId": "VKC_hzJ3jzg",
+      "title": "Señorita",
+      "artist": "Shawn Mendes - Topic"
+    },
+    {
+      "position": 104,
+      "videoId": "lpeuIu-ZYJY",
+      "title": "Serena - Safari (Official Video)",
+      "artist": "RotonMusicTV"
+    },
+    {
+      "position": 105,
+      "videoId": "pRpeEdMmmQ0",
+      "title": "Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)",
+      "artist": "shakiraVEVO"
+    },
+    {
+      "position": 106,
+      "videoId": "zAw3MLNU56s",
+      "title": "Shameless",
+      "artist": "Camila Cabello - Topic"
+    },
+    {
+      "position": 107,
+      "videoId": "xTvyyoF_LZY",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran - Topic"
+    },
+    {
+      "position": 108,
+      "videoId": "ZSRzCbpIxZo",
+      "title": "Snowman",
+      "artist": "Sia - Topic"
+    },
+    {
+      "position": 109,
+      "videoId": "pRIZohFFOMo",
+      "title": "Someone You Loved",
+      "artist": "Lewis Capaldi - Topic"
+    },
+    {
+      "position": 110,
+      "videoId": "3_g2un5M350",
+      "title": "Starboy",
+      "artist": "The Weeknd - Topic"
+    },
+    {
+      "position": 111,
+      "videoId": "KBtk5FUeJbk",
+      "title": "Sub Urban - Cradles [Official Music Video]",
+      "artist": "Sub Urban"
+    },
+    {
+      "position": 112,
+      "videoId": "BJxudKhtd9c",
+      "title": "SugarCrash!",
+      "artist": "ElyOtto - Topic"
+    },
+    {
+      "position": 113,
+      "videoId": "fRQg_9ulGuI",
+      "title": "Summertime Sadness",
+      "artist": "Lana Del Rey - Topic"
+    },
+    {
+      "position": 114,
+      "videoId": "z9VMaLxg9Ok",
+      "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+      "artist": "Post Malone - Topic"
+    },
+    {
+      "position": 115,
+      "videoId": "eZCWyFNV_ZM",
+      "title": "Sunroof",
+      "artist": "Nicky Youre - Topic"
+    },
+    {
+      "position": 116,
+      "videoId": "9LW9DpmhrPE",
+      "title": "Suzume (feat. Toaka)",
+      "artist": "Radwimps - Topic"
+    },
+    {
+      "position": 117,
+      "videoId": "5bpPtbp13Uc",
+      "title": "Teeth",
+      "artist": "5 Seconds of Summer - Topic"
+    },
+    {
+      "position": 118,
+      "videoId": "IxJjY5T9yag",
+      "title": "The Box",
+      "artist": "Roddy Ricch - Topic"
+    },
+    {
+      "position": 119,
+      "videoId": "kTJczUoc26U",
+      "title": "The Kid LAROI, Justin Bieber - STAY (Official Video)",
+      "artist": "TheKidLAROIVEVO"
+    },
+    {
+      "position": 120,
+      "videoId": "esMMHzePMVk",
+      "title": "The Night We Met",
+      "artist": "Lord Huron - Topic"
+    },
+    {
+      "position": 121,
+      "videoId": "W4C-NEWrnSQ",
+      "title": "The Nights",
+      "artist": "Avicii - Topic"
+    },
+    {
+      "position": 122,
+      "videoId": "r5MR7_INQwg",
+      "title": "The Real Slim Shady",
+      "artist": "Eminem - Topic"
+    },
+    {
+      "position": 123,
+      "videoId": "lNM9HlEK4q4",
+      "title": "The Spectre",
+      "artist": "Alan Walker - Topic"
+    },
+    {
+      "position": 124,
+      "videoId": "Ztdc7TcPdAA",
+      "title": "There's Nothing Holdin' Me Back",
+      "artist": "Shawn Mendes - Topic"
+    },
+    {
+      "position": 125,
+      "videoId": "8VKD-IlvibI",
+      "title": "Unholy",
+      "artist": "Sam Smith - Topic"
+    },
+    {
+      "position": 126,
+      "videoId": "cfhwSpSDA9c",
+      "title": "Unstoppable",
+      "artist": "Sia - Topic"
+    },
+    {
+      "position": 127,
+      "videoId": "znvky0Uq8qc",
+      "title": "Until I Found You",
+      "artist": "Stephen Sanchez - Topic"
+    },
+    {
+      "position": 128,
+      "videoId": "-Q0BR72Aq4Q",
+      "title": "Wahran",
+      "artist": "RANDALL - Topic"
+    },
+    {
+      "position": 129,
+      "videoId": "YTCS7IWUJu8",
+      "title": "Way down We Go",
+      "artist": "Kaleo - Topic"
+    },
+    {
+      "position": 130,
+      "videoId": "ffqliB42Nh4",
+      "title": "We Don't Talk Anymore (feat. Selena Gomez)",
+      "artist": "Charlie Puth - Topic"
+    },
+    {
+      "position": 131,
+      "videoId": "D458Eaql_aQ",
+      "title": "Wellerman (Sea Shanty)",
+      "artist": "Nathan Evans - Topic"
+    },
+    {
+      "position": 132,
+      "videoId": "d57qSDCxVA4",
+      "title": "What Makes You Beautiful",
+      "artist": "One Direction - Topic"
+    },
+    {
+      "position": 133,
+      "videoId": "tqxRidAWER8",
+      "title": "Without Me",
+      "artist": "Eminem - Topic"
+    },
+    {
+      "position": 134,
+      "videoId": "h3YXec5gJi0",
+      "title": "Witt Lowry - Into Your Arms (feat. Ava Max) (Official Music Video)",
+      "artist": "Witt Lowry"
+    },
+    {
+      "position": 135,
+      "videoId": "2Kiob5f9A1g",
+      "title": "You Are The Reason",
+      "artist": "Calum Scott - Topic"
+    },
+    {
+      "position": 136,
+      "videoId": "CpTr4USXjQw",
+      "title": "Don't Let Me Down",
+      "artist": "The Chainsmokers - Topic"
+    },
+    {
+      "position": 137,
+      "videoId": "n0GXk_T2zs8",
+      "title": "Training Season",
+      "artist": "Dua Lipa - Topic"
+    },
+    {
+      "position": 138,
+      "videoId": "TR19QSL7WuQ",
+      "title": "Ordinary",
+      "artist": "Alex Warren - Topic"
+    },
+    {
+      "position": 139,
+      "videoId": "6bGmUTAfh-A",
+      "title": "Let Her Go",
+      "artist": "Passenger - Topic"
+    },
+    {
+      "position": 140,
+      "videoId": "GnmoJaTWiQE",
+      "title": "Woman",
+      "artist": "Doja Cat - Topic"
+    },
+    {
+      "position": 141,
+      "videoId": "0LuignGmX_0",
+      "title": "Somewhere Only We Know",
+      "artist": "Keane - Topic"
+    },
+    {
+      "position": 142,
+      "videoId": "aykb9pGfTR4",
+      "title": "Copines",
+      "artist": "Aya Nakamura - Topic"
+    },
+    {
+      "position": 143,
+      "videoId": "7at-8hXTXA8",
+      "title": "Treat You Better",
+      "artist": "Shawn Mendes - Topic"
+    },
+    {
+      "position": 144,
+      "videoId": "pY9QhZkvBCQ",
+      "title": "LET THE WORLD BURN",
+      "artist": "Chris Grey - Topic"
+    },
+    {
+      "position": 145,
+      "videoId": "VtsdENdk-Zo",
+      "title": "Elevate",
+      "artist": "SKG - Topic"
+    },
+    {
+      "position": 146,
+      "videoId": "FXovf5dsRTw",
+      "title": "Despacito",
+      "artist": "Luis Fonsi - Topic"
+    },
+    {
+      "position": 147,
+      "videoId": "Kf5pXDhx5Vc",
+      "title": "End of Beginning",
+      "artist": "Djo - Topic"
+    },
+    {
+      "position": 148,
+      "videoId": "fFW91xwQFXk",
+      "title": "Whenever, Wherever",
+      "artist": "Shakira - Topic"
+    },
+    {
+      "position": 149,
+      "videoId": "aC9HkZW2hZk",
+      "title": "Cruel Summer",
+      "artist": "Taylor Swift - Topic"
+    },
+    {
+      "position": 150,
+      "videoId": "LszrNDvIivU",
+      "title": "Danza Kuduro (Version MTO)",
+      "artist": "Lucenzo - Topic"
+    },
+    {
+      "position": 151,
+      "videoId": "a2giXO6eyuI",
+      "title": "Set Fire to the Rain",
+      "artist": "Adele - Topic"
+    },
+    {
+      "position": 152,
+      "videoId": "r7zTKRonHXM",
+      "title": "Closer",
+      "artist": "The Chainsmokers - Topic"
+    },
+    {
+      "position": 153,
+      "videoId": "SiRJw4f_ufc",
+      "title": "Stereo Hearts (feat. Adam Levine)",
+      "artist": "Gym Class Heroes - Topic"
+    },
+    {
+      "position": 154,
+      "videoId": "aZwklvDdaVw",
+      "title": "Alone",
+      "artist": "Alan Walker - Topic"
+    },
+    {
+      "position": 155,
+      "videoId": "CXU7Xlf8wTI",
+      "title": "Darkside",
+      "artist": "Alan Walker - Topic"
+    },
+    {
+      "position": 156,
+      "videoId": "PYlar41MkvM",
+      "title": "Tattoo",
+      "artist": "Loreen - Topic"
+    },
+    {
+      "position": 157,
+      "videoId": "aVM8-TXXxsQ",
+      "title": "Worth It",
+      "artist": "Fifth Harmony - Topic"
+    },
+    {
+      "position": 158,
+      "videoId": "QQVa4xCf8JY",
+      "title": "Before You Go",
+      "artist": "Lewis Capaldi - Topic"
+    },
+    {
+      "position": 159,
+      "videoId": "cULQhvuq1Zc",
+      "title": "Sweater Weather",
+      "artist": "The Neighbourhood - Topic"
+    },
+    {
+      "position": 160,
+      "videoId": "9ssQKlLxBdQ",
+      "title": "Thunder",
+      "artist": "Imagine Dragons - Topic"
+    },
+    {
+      "position": 161,
+      "videoId": "gDRL47NzG5o",
+      "title": "On The Floor (Radio Edit)",
+      "artist": "Jennifer Lopez - Topic"
+    },
+    {
+      "position": 162,
+      "videoId": "Hx4nWW9z0ig",
+      "title": "Dance Monkey",
+      "artist": "Tones And I - Topic"
+    },
+    {
+      "position": 163,
+      "videoId": "rJ0D1GbDq1Q",
+      "title": "Let Me Love You",
+      "artist": "DJ Snake - Topic"
+    },
+    {
+      "position": 164,
+      "videoId": "QX1KRphxnQc",
+      "title": "Headlights (feat. KIDDO)",
+      "artist": "Alok - Topic"
+    },
+    {
+      "position": 165,
+      "videoId": "Fplgu4VVb94",
+      "title": "Stargazing",
+      "artist": "Myles Smith - Topic"
+    },
+    {
+      "position": 166,
+      "videoId": "hXiRY0nj3A0",
+      "title": "I Think They Call This Love (Cover) (Preview)",
+      "artist": "Matthew Ifield - Topic"
+    },
+    {
+      "position": 167,
+      "videoId": "P9L_ZWVPX4g",
+      "title": "Falling",
+      "artist": "Trevor Daniel - Topic"
+    },
+    {
+      "position": 168,
+      "videoId": "8CsuLbpBuN4",
+      "title": "Fairytale",
+      "artist": "Alexander Rybak - Topic"
+    },
+    {
+      "position": 169,
+      "videoId": "Z_slTWayFK0",
+      "title": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (Single)",
+      "artist": "Shakira - Topic"
+    },
+    {
+      "position": 170,
+      "videoId": "AOz9V0NhJe8",
+      "title": "That’s So True",
+      "artist": "Gracie Abrams - Topic"
+    },
+    {
+      "position": 171,
+      "videoId": "mJLDjIWuPXU",
+      "title": "Havana",
+      "artist": "Camila Cabello - Topic"
+    },
+    {
+      "position": 172,
+      "videoId": "_GWKkqNoyEA",
+      "title": "Counting Stars",
+      "artist": "OneRepublic - Topic"
+    },
+    {
+      "position": 173,
+      "videoId": "uziIDxPrjJc",
+      "title": "SNAP",
+      "artist": "Rosa Linn - Topic"
+    },
+    {
+      "position": 174,
+      "videoId": "jVBsM8CM0AE",
+      "title": "i like the way you kiss me",
+      "artist": "Artemas - Topic"
+    },
+    {
+      "position": 175,
+      "videoId": "v16qZcBllUU",
+      "title": "Sorry",
+      "artist": "Justin Bieber - Topic"
+    },
+    {
+      "position": 176,
+      "videoId": "Gy_ExjhjA-4",
+      "title": "Kings & Queens",
+      "artist": "Ava Max - Topic"
+    },
+    {
+      "position": 177,
+      "videoId": "oY8pxDSJhgc",
+      "title": "somewhere only we know",
+      "artist": "creamy - Topic"
+    },
+    {
+      "position": 178,
+      "videoId": "w_AQRab7X64",
+      "title": "Until I Found You",
+      "artist": "Kymsue - Topic"
+    },
+    {
+      "position": 179,
+      "videoId": "ntG3GQdY_Ok",
+      "title": "Light Switch",
+      "artist": "Charlie Puth - Topic"
+    },
+    {
+      "position": 180,
+      "videoId": "NXCK85F_7Gk",
+      "title": "Enemy",
+      "artist": "Tommee Profitt - Topic"
+    }
+  ],
+  "discrepancyAnalysis": {
+    "matchesApiCount": true,
+    "hasDuplicates": false,
+    "explanation": "Playlist contains 181 items on YouTube (176 active tracks in earlier base snapshot + 5 additional tracks in live playlist). All 181 have distinct YouTube video IDs."
+  }
+}

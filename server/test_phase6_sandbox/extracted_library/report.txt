@@ -1,0 +1,18 @@
+========================================================================
+LIBRARY EXPORT REPORT: Complete Workflow Test Playlist
+Snapshot ID:           snapshot_PLMeZARHzcGt0_v2_3
+Exported On:           28/11/2026, 10:25:21 pm
+Folder Format:         Music/{Artist}/{Album}/
+========================================================================
+
+METRICS:
+  Total Tracks:               3
+  Authorized Audio Exported:  3
+  Excluded Unverified Audio:  0
+  Lyrics Files Exported:      2
+  Album Covers Generated:     3
+
+RIGHTS & INTEGRITY ENFORCEMENT:
+  Audio candidates with unsupported Creative Commons claims on commercial
+  recordings are excluded from audio export. Lyrics and metadata are preserved.
+========================================================================

@@ -1,0 +1,14 @@
+{
+  "snapshotId": "snapshot_PLMeZARHzcGt0_v2_3",
+  "playlistTitle": "Complete Workflow Test Playlist",
+  "exportedAt": "2026-11-28T16:55:21.198Z",
+  "albumCount": 3,
+  "folderStructure": "Music/{Artist}/{Album}/{Track}",
+  "formatsSummary": {
+    "mp3": 1,
+    "flac": 1,
+    "ogg": 1,
+    "other": 0
+  },
+  "rightsPolicyNotice": "All audio files included in this export are verified for download authorization. Unverified and third-party Creative Commons assertions on copyrighted commercial recordings are strictly excluded."
+}

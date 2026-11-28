@@ -1,0 +1,209 @@
+[
+  {
+    "candidateId": "07ddfe54-b694-474b-9339-cfcc955b9d46",
+    "videoId": "ciwx8yJPX54",
+    "title": "Alone, Pt. II",
+    "artist": "Ava Max - Topic",
+    "candidateTitle": "Alan Walker Alone, Pt. II ( Live At Château De Fontainebleau) [ 24 Bit]",
+    "identifier": "alan-walker-alone-pt.-ii-live-at-chateau-de-fontainebleau-24-bit",
+    "uploader": "linuxos345@gmail.com",
+    "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "none",
+    "versionType": "LIVE",
+    "rightsStatus": "BOOTLEG_UNAUTHORIZED",
+    "rightsJustification": "Live concert recording. Master rights belong to recording artist / label; third-party uploader cannot grant Creative Commons.",
+    "audioFilesCount": 2,
+    "audioFormats": [
+      "Flac",
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "3725d68f-39e0-40c8-8218-b94e2e876e6b",
+    "videoId": "J7p4bzqLvCw",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd - Topic",
+    "candidateTitle": "Nightcore - Blinding Lights [The Weeknd]",
+    "identifier": "nightcore-blinding-lights-the-weeknd",
+    "error": "read ECONNRESET",
+    "rightsStatus": "METADATA_FETCH_ERROR",
+    "rightsJustification": "Failed to fetch Internet Archive metadata: read ECONNRESET"
+  },
+  {
+    "candidateId": "fe2b6e97-4ed8-48e8-9088-ddc59e223d8b",
+    "videoId": "8_Cw99SiHvc",
+    "title": "Cradles",
+    "artist": "Sub Urban - Topic",
+    "candidateTitle": "Sub Urban Cradles [ NCS Release]",
+    "identifier": "sub-urban-cradles-ncs-release_202304",
+    "error": "getaddrinfo ENOTFOUND archive.org",
+    "rightsStatus": "METADATA_FETCH_ERROR",
+    "rightsJustification": "Failed to fetch Internet Archive metadata: getaddrinfo ENOTFOUND archive.org"
+  },
+  {
+    "candidateId": "51f4b42c-dd7a-4380-9b0e-7f9f0ba11976",
+    "videoId": "gxTRx4uurxs",
+    "title": "Dark Horse",
+    "artist": "Katy Perry - Topic",
+    "candidateTitle": "Katy Perry featuring Juicy J - Dark Horse [SLEEPCORE EDIT]",
+    "identifier": "KatyPerryFeaturingJuicyJDarkHorseSLEEPCOREEDIT",
+    "uploader": "impulse.0000@gmail.com",
+    "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "rights": "none",
+    "versionType": "SLOWED_EDIT",
+    "rightsStatus": "DERIVATIVE_UNAUTHORIZED",
+    "rightsJustification": "Derivative work (pitch/tempo shift or remix) of copyrighted sound recording. Creative Commons tag by uploader is invalid without master rights.",
+    "audioFilesCount": 3,
+    "audioFormats": [
+      "Flac",
+      "VBR MP3",
+      "Ogg Vorbis"
+    ]
+  },
+  {
+    "candidateId": "48f4bac2-7d8c-4692-8a11-5d03702af8dc",
+    "videoId": "kIft-LUHHVA",
+    "title": "Espresso",
+    "artist": "Sabrina Carpenter - Topic",
+    "candidateTitle": "Soundcloudaud.com Espresso Sabrina Carpenter ( Best Cover Ever )",
+    "identifier": "soundcloudaud.com-espresso-sabrina-carpenter-best-cover-ever",
+    "uploader": "jr0694593@gmail.com",
+    "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "none",
+    "versionType": "COVER",
+    "rightsStatus": "NEEDS_MECHANICAL_LICENSE_PROOF",
+    "rightsJustification": "Cover version uploaded by third party. Without proof of mechanical license or explicit rights transfer, cannot be treated as authorized public domain/CC.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "4452dbe9-f2be-4b6d-9967-26fb5cfeebcb",
+    "videoId": "pIWaVJPl0-c",
+    "title": "Faded",
+    "artist": "Alan Walker - Topic",
+    "candidateTitle": "ytmp3free.cc_alan-walker-faded-ncs-release-at-very-low-quality-youtubemp3free.org",
+    "identifier": "ytmp3free.cc_alan-walker-faded-ncs-release-at-very-low-quality-youtubemp3free.org",
+    "uploader": "newgroundfan2012@gmail.com",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "rights": "none",
+    "versionType": "NCS_RELEASE",
+    "rightsStatus": "COMMUNITY_RELEASE_UNVERIFIED",
+    "rightsJustification": "NCS upload on Internet Archive by third-party scraper rather than official label account. Requires verification of official distribution channel.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "31bd74f8-2604-4a29-9f4a-b05e450964a1",
+    "videoId": "JTjmZZ1W2ew",
+    "title": "Fearless Pt. II",
+    "artist": "Lost Sky - Topic",
+    "candidateTitle": "TULE Fearless Pt. II (feat. Chris Linton) [ Music Video Edit] ( 256 Kbps) (download Lagu Mp 3.com)",
+    "identifier": "TULEFearlessPt.IIfeat.ChrisLintonMusicVideoEdit256KbpsdownloadLaguMp3.com",
+    "uploader": "friadefauzi@gmail.com",
+    "licenseurl": "http://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "none",
+    "versionType": "SLOWED_EDIT",
+    "rightsStatus": "DERIVATIVE_UNAUTHORIZED",
+    "rightsJustification": "Derivative work (pitch/tempo shift or remix) of copyrighted sound recording. Creative Commons tag by uploader is invalid without master rights.",
+    "audioFilesCount": 2,
+    "audioFormats": [
+      "VBR MP3",
+      "Ogg Vorbis"
+    ]
+  },
+  {
+    "candidateId": "ae992303-d4e5-4356-86d9-51b281d32e79",
+    "videoId": "XDjB9E3YtUE",
+    "title": "Heat Waves",
+    "artist": "Glass Animals - Topic",
+    "candidateTitle": "Deepfried Nightcore Heat Waves Glass Animals",
+    "identifier": "deepfried-nightcore-heat-waves-glass-animals",
+    "uploader": "eraeusboorwel@gmail.com",
+    "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "rights": "none",
+    "versionType": "NIGHTCORE",
+    "rightsStatus": "DERIVATIVE_UNAUTHORIZED",
+    "rightsJustification": "Derivative work (pitch/tempo shift or remix) of copyrighted sound recording. Creative Commons tag by uploader is invalid without master rights.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "d057f505-167e-49bd-bcc7-276dab3560cc",
+    "videoId": "3_g2un5M350",
+    "title": "Starboy",
+    "artist": "The Weeknd - Topic",
+    "candidateTitle": "Starboy",
+    "identifier": "Starboy_201801",
+    "uploader": "JMDGamotia@Outlook.com",
+    "licenseurl": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "rights": "none",
+    "versionType": "STUDIO_ORIGINAL",
+    "rightsStatus": "UNSUPPORTED_CC_CLAIM",
+    "rightsJustification": "Commercial recording uploaded by third-party user (JMDGamotia@Outlook.com). Creative Commons metadata is unsupported by copyright ownership.",
+    "audioFilesCount": 2,
+    "audioFormats": [
+      "VBR MP3",
+      "Ogg Vorbis"
+    ]
+  },
+  {
+    "candidateId": "582ea510-cc1d-43c8-be81-9e4a6533209f",
+    "videoId": "KBtk5FUeJbk",
+    "title": "Sub Urban - Cradles [Official Music Video]",
+    "artist": "Sub Urban",
+    "candidateTitle": "Sub Urban - Cradles [NCS Release]",
+    "identifier": "sub-urban-cradles-ncs-release",
+    "uploader": "plugandplayrhythmic@gmail.com",
+    "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "rights": "none",
+    "versionType": "NCS_RELEASE",
+    "rightsStatus": "COMMUNITY_RELEASE_UNVERIFIED",
+    "rightsJustification": "NCS upload on Internet Archive by third-party scraper rather than official label account. Requires verification of official distribution channel.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "73d5670c-bd15-4c39-943c-333778aced64",
+    "videoId": "d57qSDCxVA4",
+    "title": "What Makes You Beautiful",
+    "artist": "One Direction - Topic",
+    "candidateTitle": "What Makes You Beautiful",
+    "identifier": "what-makes-you-beautiful_202503",
+    "uploader": "therealjigsawproject@gmail.com",
+    "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "none",
+    "versionType": "STUDIO_ORIGINAL",
+    "rightsStatus": "UNSUPPORTED_CC_CLAIM",
+    "rightsJustification": "Commercial recording uploaded by third-party user (therealjigsawproject@gmail.com). Creative Commons metadata is unsupported by copyright ownership.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  },
+  {
+    "candidateId": "ca34ce83-6c86-4e66-872d-14725f306964",
+    "videoId": "P9L_ZWVPX4g",
+    "title": "Falling",
+    "artist": "Trevor Daniel - Topic",
+    "candidateTitle": "Falling ( Feat. Blackbear )",
+    "identifier": "blackbear-x-trevor-daniel-falling-mp-3-128-k",
+    "uploader": "pedroesparzactor@gmail.com",
+    "licenseurl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "rights": "none",
+    "versionType": "REMIX",
+    "rightsStatus": "DERIVATIVE_UNAUTHORIZED",
+    "rightsJustification": "Derivative work (pitch/tempo shift or remix) of copyrighted sound recording. Creative Commons tag by uploader is invalid without master rights.",
+    "audioFilesCount": 1,
+    "audioFormats": [
+      "VBR MP3"
+    ]
+  }
+]
